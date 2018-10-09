@@ -1320,12 +1320,13 @@ func (ge *goEncoder) genGoStruct(w io.Writer, d *wsdl.Definitions, ct *wsdl.Comp
 		if restr != nil && len(restr.Attributes) == 1 && restr.Attributes[0].ArrayType != "" {
 			fmt.Fprintf(w, "type %s struct {\n", name)
 			typ := strings.SplitN(trimns(restr.Attributes[0].ArrayType), "[", 2)[0]
-			fmt.Fprintf(w, "Items []*%s `xml:\"item,omitempty\" json:\"item,omitempty\" yaml:\"item,omitempty\"`\n", typ)
+			fmt.Fprintf(w, "Items []%s `xml:\"item,omitempty\" json:\"item,omitempty\" yaml:\"item,omitempty\"`\n", ge.wsdl2goType(typ))
 			fmt.Fprintf(w, "}\n\n")
 			return nil
 		}
 	}
-	if c > 2 && len(ct.Attributes) == 0 {
+
+	if c > 2 && len(ct.Attributes) == 0 && ct.SimpleContent == nil {
 		fmt.Fprintf(w, "type %s struct {\n", name)
 		ge.genXMLName(w, d.TargetNamespace, name)
 		fmt.Fprintf(w, "}\n\n")
@@ -1333,6 +1334,7 @@ func (ge *goEncoder) genGoStruct(w io.Writer, d *wsdl.Definitions, ct *wsdl.Comp
 	}
 	fmt.Fprintf(w, "type %s struct {\n", name)
 	ge.genXMLName(w, d.TargetNamespace, name)
+
 	err := ge.genStructFields(w, d, ct)
 
 	if ct.ComplexContent != nil && ct.ComplexContent.Extension != nil {
@@ -1371,6 +1373,12 @@ func (ge *goEncoder) genStructFields(w io.Writer, d *wsdl.Definitions, ct *wsdl.
 	if err != nil {
 		return err
 	}
+
+	err = ge.genSimpleContent(w, d, ct)
+	if err != nil {
+		return err
+	}
+
 	return ge.genElements(w, ct)
 }
 
@@ -1453,6 +1461,36 @@ func (ge *goEncoder) genComplexContent(w io.Writer, d *wsdl.Definitions, ct *wsd
 		}
 
 	}
+	return nil
+}
+
+func (ge *goEncoder) genSimpleContent(w io.Writer, d *wsdl.Definitions, ct *wsdl.ComplexType) error {
+	if ct.SimpleContent == nil || ct.SimpleContent.Extension == nil {
+		return nil
+	}
+
+	ext := ct.SimpleContent.Extension
+	if ext.Base != "" {
+		baseComplex, exists := ge.ctypes[trimns(ext.Base)]
+		if exists {
+			err := ge.genStructFields(w, d, baseComplex)
+			if err != nil {
+				return err
+			}
+		} else {
+			// otherwise it's a simple type
+			ge.genElementField(w, &wsdl.Element{
+				Type: trimns(ext.Base),
+				Name: "Content",
+			})
+		}
+	}
+
+	for _, attr := range ext.Attributes {
+		ge.genAttributeField(w, attr)
+	}
+
+	// sequence, choice, etc. are not supported in simpleContent tags.
 	return nil
 }
 
@@ -1573,6 +1611,7 @@ func (ge *goEncoder) writeComments(w io.Writer, typeName, comment string) {
 		if line == "" {
 			count, line = 2, "//"
 		}
+
 		count += len(word)
 		if count > 60 {
 			fmt.Fprintf(w, "%s %s\n", line, word)

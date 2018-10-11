@@ -24,7 +24,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/fiorix/wsdl2go/wsdl"
+	"github.com/krehl/wsdl2go/wsdl"
 )
 
 // An Encoder generates Go code from WSDL definitions.
@@ -202,7 +202,8 @@ func (ge *goEncoder) encode(w io.Writer, d *wsdl.Definitions) error {
 
 	var b bytes.Buffer
 	var ff []func(io.Writer, *wsdl.Definitions) error
-	if len(ge.soapOps) > 0 {
+	//if len(ge.soapOps) > 0 {
+	if false {
 		ff = append(ff,
 			ge.writeInterfaceFuncs,
 			ge.writeGoTypes,
@@ -1478,6 +1479,7 @@ func (ge *goEncoder) genSimpleContent(w io.Writer, d *wsdl.Definitions, ct *wsdl
 				return err
 			}
 		} else {
+
 			// otherwise it's a simple type
 			ge.genElementField(w, &wsdl.Element{
 				Type: trimns(ext.Base),
@@ -1520,6 +1522,8 @@ func (ge *goEncoder) genElements(w io.Writer, ct *wsdl.ComplexType) error {
 }
 
 func (ge *goEncoder) genElementField(w io.Writer, el *wsdl.Element) {
+	//fmt.Println(el)
+	//fmt.Print(ge.ctypes)
 	if el.Ref != "" {
 		ref := trimns(el.Ref)
 		nel, ok := ge.elements[ref]
@@ -1560,7 +1564,19 @@ func (ge *goEncoder) genElementField(w io.Writer, el *wsdl.Element) {
 	if et == "" {
 		et = "string"
 	}
+	doc := ""
 	tag := el.Name
+	//fmt.Println(el.Type)
+	//fmt.Println(ge.ctypes[trimns(el.Type)])
+	if el.Doc != "" {
+		doc = el.Doc
+	} else if el.ComplexType != nil {
+		doc = el.ComplexType.Doc
+	} else if el.Doc2 != "" {
+		doc = el.Doc2
+	} else if ge.ctypes[trimns(el.Type)] != nil {
+		doc = ge.ctypes[trimns(el.Type)].Doc
+	}
 	fmt.Fprintf(w, "%s ", goSymbol(el.Name))
 	if el.Max != "" && el.Max != "1" {
 		fmt.Fprintf(w, "[]")
@@ -1577,8 +1593,8 @@ func (ge *goEncoder) genElementField(w io.Writer, el *wsdl.Element) {
 			typ = "*" + typ
 		}
 	}
-	fmt.Fprintf(w, "%s `xml:\"%s\" json:\"%s\" yaml:\"%s\"`\n",
-		typ, tag, tag, tag)
+	fmt.Fprintf(w, "%s `xml:\"%s\" json:\"%s\" yaml:\"%s\" doc:\"%s\"`\n",
+		typ, tag, tag, tag, doc)
 }
 
 func (ge *goEncoder) genAttributeField(w io.Writer, attr *wsdl.Attribute) {

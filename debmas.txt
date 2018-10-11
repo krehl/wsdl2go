@@ -1,0 +1,1794 @@
+&{{http://www.w3.org/2001/XMLSchema element} BEGIN     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EDI_DC40  tns:EDI_DC40.DEBMAS.DEBMAS07   1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNA1M  tns:DEBMAS07.E1KNA1M  Master customer master basic data (KNA1) 1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} idoc  tns:DEBMAS07   1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} IDOC  tns:DEBMAS.DEBMAS07  Customer master data distribution 1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNURL   Uniform Resource Locator  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} J_1KFREPRE   Name of Representative  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} J_1KFTBUS   Type of Business  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} J_1KFTIND   Type of Industry  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOIS   Subledger acct preprocessing procedure  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSON1   Name 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSON2   Name 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSON3   Name 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOVN   First Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOTL   Title  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOO1   Description  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOO2   Description  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOO3   Description  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOO4   Description  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSOO5   Description  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCD5   Tax Number 5  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDOBJECT   Texts: Application Object  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDNAME   Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDID   Text ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRAS   Language Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDTEXTTYPE   SAPscript: Format of Text  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRASISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNA1L  tns:DEBMAS07.E1KNA1L   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDFORMAT   Tag column  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDLINE   Text Line  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KUNNR   Customer Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ANRED   Title  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AUFSD   Central order block for customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BAHNE   Express train station  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BAHNS   Train station  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BBBNR   International location number  (part 1)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BBSNR   International location number (Part 2)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BEGRU   Authorization Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRSCH   Industry key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BUBKZ   Check digit for the international location number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATLT   Data communication line no.  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FAKSD   Central billing block for customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FISKN   Account number of the master record with the fiscal address  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNRZA   Account number of an alternative payer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KONZS   Group key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KTOKD   Customer Account Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KUKLA   Customer classification  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LAND1   Country Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LIFNR   Account Number of Vendor or Creditor  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LIFSD   Central delivery block for the customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCCO   City Coordinates  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOEVM   Central Deletion Flag for Master Record  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NAME1   Name 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NAME2   Name 2  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NAME3   Name 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NAME4   Name 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NIELS   Nielsen ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ORT01   City  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ORT02   District  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PFACH   PO Box  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSTL2   P.O. Box Postal Code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSTLZ   Postal Code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} REGIO   Region (State, Province, County)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} COUNC   County Code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CITYC   City Code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RPMKR   Regional Market  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SORTL   Sort field  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPERR   Central posting block  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPRAS   Language Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCD1   Tax Number 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCD2   Tax Number 2  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STKZA   Indicator: Business Partner Subject to Equalization Tax?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STKZU   Liable for VAT  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STRAS   House number and street  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELBX   Telebox number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELF1   First telephone number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELF2   Second telephone number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELFX   Fax Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELTX   Teletex number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELX1   Telex number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LZONE   Transportation zone to or from which the goods are delivered  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XZEMP   Indicator: Alternative payee in document allowed ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VBUND   Company ID of Trading Partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCEG   VAT Registration Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GFORM   Legal status  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRAN1   Industry Code 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRAN2   Industry code 2  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRAN3   Industry code 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRAN4   Industry code 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRAN5   Industry code 5  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UMJAH   Year For Which Sales are Given  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UWAER   Currency of sales figure  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} JMZAH   Yearly number of employees  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} JMJAH   Year for which the number of employees is given  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR1   e-Shop  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR2   Attribute 2  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR3   Attribute 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR4   Attribute 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR5   Attribute 5  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR6   Attribute 6  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR7   Attribute 7  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR8   Attribute 8  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR9   Attribute 9  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KATR10   Attribute 10  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STKZN   Natural Person  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UMSA1   Field of length 16  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TXJCD   Tax Jurisdiction  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PERIV   Fiscal Year Variant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KTOCD   Reference Account Group for One-Time Account (Customer)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PFORT   PO Box city  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DTAMS   Indicator for Data Medium Exchange  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DTAWS   Instruction key for data medium exchange  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} HZUOR   Hierarchy assignment (batch input)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CIVVE   ID for mainly non-military use  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MILVE   ID for mainly military use  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPRAS_ISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FITYP   Tax type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCDT   Tax Number Type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCD3   Tax Number 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCD4   Tax Number 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XICMS   Customer is ICMS-exempt  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XXIPI   Customer is IPI-exempt  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XSUBT   Customer group of Substituiçao Tributária calculation- old!!  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CFOPC   Customer's CFOP category  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TXLW1   Tax law: ICMS  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TXLW2   Tax law: IPI  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCC01   Indicator for biochemical warfare for legal control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCC02   Indicator for nuclear nonproliferation for legal control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCC03   Indicator for national security for legal control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCC04   Indicator for missile technology for legal control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CASSD   Central sales block for customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDKG1   Customer condition group 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDKG2   Customer condition group 2  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDKG3   Customer condition group 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDKG4   Customer condition group 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDKG5   Customer condition group 5  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NODEL   Central deletion block for master record  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XSUB2   Customer group for Substituiçao Tributária calculation  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WERKS   Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNA11  tns:DEBMAS07.E1KNA11  Customer Master: Additional General Fields  (KNA1) 0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNA1H  tns:DEBMAS07.E1KNA1H   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVVM  tns:DEBMAS07.E1KNVVM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNB1M  tns:DEBMAS07.E1KNB1M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNBKM  tns:DEBMAS07.E1KNBKM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVAM  tns:DEBMAS07.E1KNVAM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1WRF12  tns:DEBMAS07.E1WRF12   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1WRF4M  tns:DEBMAS07.E1WRF4M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVKM  tns:DEBMAS07.E1KNVKM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNEXM  tns:DEBMAS07.E1KNEXM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNASM  tns:DEBMAS07.E1KNASM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNKAM  tns:DEBMAS07.E1KNKAM  Master customer master credit management central data (KNKA) 0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNATM  tns:DEBMAS07.E1KNATM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNKKM  tns:DEBMAS07.E1KNKKM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1VCKUN  tns:DEBMAS07.E1VCKUN   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1WRF1M  tns:DEBMAS07.E1WRF1M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1WRF3M  tns:DEBMAS07.E1WRF3M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1WRF5M  tns:DEBMAS07.E1WRF5M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1WRF6M  tns:DEBMAS07.E1WRF6M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1T023W  tns:DEBMAS07.E1T023W   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1T023X  tns:DEBMAS07.E1T023X   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LAND1   Country Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STCEG   VAT Registration Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TAXGR   Category indicator for tax codes  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SBJDF   Character field, 8 characters long  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SBJDT   Character field, 8 characters long  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EXNR   Number of exemption certificate  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EXRT   R/2 table  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EXDF   Character field, 8 characters long  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EXDT   Character field, 8 characters long  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDOBJECT   Texts: Application Object  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDNAME   Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDID   Text ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRAS   Language Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDTEXTTYPE   SAPscript: Format of Text  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRASISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNB1L  tns:DEBMAS07.E1KNB1L   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDFORMAT   Tag column  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDLINE   Text Line  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BUKRS   Company Code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPERR   Posting block for company code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOEVM   Deletion Flag for Master Record (Company Code Level)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZUAWA   Key for sorting according to assignment numbers  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BUSAB   Accounting clerk  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AKONT   Reconciliation Account in General Ledger  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BEGRU   Authorization Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNRZE   Head office account number (in branch accounts)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNRZB   Account number of an alternative payer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZAMIM   Indicator: Payment notice to customer (with cleared items)?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZAMIV   Indicator: payment notice to sales department?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZAMIR   Indicator: payment notice to legal department?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZAMIB   Indicator: Payment notice to the accounting department ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZAMIO   Indicator: payment notice to customer (w/o cleared items)?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZWELS   List of the Payment Methods to be Considered  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XVERR   Indicator: Clearing between customer and vendor ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZAHLS   Block Key for Payment  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZTERM   Terms of Payment Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WAKON   Terms of payment key for bill of exchange charges  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VZSKZ   Interest calculation indicator  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZINDT   Key date of the last interest calculation  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZINRT   Interest calculation frequency in months  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EIKTO   Our account number at customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZSABE   User at customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KVERM   Memo  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FDGRV   Planning group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VRBKZ   Export credit insurance institution number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VLIBB   Amount Insured  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VRSZL   Insurance lead months  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VRSPR   Deductible percentage rate  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VRSNR   Insurance number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VERDT   Insurance validity date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PERKZ   Collective invoice variant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XDEZV   Indicator: Local processing?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XAUSZ   Indicator for periodic account statements  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WEBTR   Bill of exchange limit (in local currency)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} REMIT   Next payee  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATLZ   Date of the last interest calculation run  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XZVER   Indicator: Record Payment History ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TOGRU   Tolerance group for the business partner/G/L account  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KULTG   Probable time until check is paid  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} HBKID   Short Key for a House Bank  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XPORE   Indicator: Pay all items separately ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BLNKZ   Subsidy Indicator for Determining the Reduction Rates  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ALTKN   Previous Master Record Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZGRUP   Key for Payment Grouping  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} URLID   Short Key for Known/Negotiated Leave  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MGRUP   Key for dunning notice grouping  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCKB   Key of the Lockbox to Which the Customer Is To Pay  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UZAWE   Payment Method Supplement  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EKVBD   Account Number of Buying Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SREGL   Selection Rule for Payment Advices  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XEDIP   Indicator: Send Payment Advices by EDI  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRGRP   Release Approval Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VRSDG   Reason Code Conversion Version  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TLFXS   Accounting clerk's fax number at the customer/vendor  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PERNR   Personnel Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} INTAD   Internet address of partner company clerk  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GUZTE   Payment Terms Key for Credit Memos  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GRICD   Activity Code for Gross Income Tax  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GRIDT   Distribution Type for Employment Tax  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WBRSL   Value Adjustment Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NODEL   Deletion bock for master record (company code level)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TLFNS   Accounting clerk's telephone number at business partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CESSION_KZ   Accounts Receivable Pledging Indicator  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GMVKZD   Customer is in execution  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AVSND   Indicator: Send Payment Advice by XML  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SMTP_ADDR   E-mail Address  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNBWM  tns:DEBMAS07.E1KNBWM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNB5M  tns:DEBMAS07.E1KNB5M   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNB1H  tns:DEBMAS07.E1KNB1H   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MABER   Dunning Area  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MAHNA   Dunning Procedure  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MANSP   Dunning Block  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MADAT   Date of Last Dunning Notice  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MAHNS   Dunning Level  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNRMA   Account number of the dunning recipient  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GMVDT   Date of the legal dunning proceedings  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BUSAB   Dunning clerk  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BANKS   Bank country key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BANKL   Bank number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BANKN   Bank account number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BKONT   Bank Control Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BVTYP   Partner Bank Type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XEZER   Indicator: Is there collection authorization ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BKREF   Reference specifications for bank details  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BANKA   Name of bank  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STRAS   House number and street  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ORT01   City  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SWIFT   SWIFT Code for International Payments  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BGRUP   Bank group (bank network)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} XPGRO   Post Office Bank Current Account  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BNKLZ   Bank number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSKTO   Account Number of Bank Account At Post Office  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRNCH   Bank Branch  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PROVZ   Region (State, Province, County)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KOINH   Account Holder Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KOINH_N   Account Holder Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KOVON   Date (batch input)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KOBIS   Date (batch input)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} IBAN_BANKS   Bank country key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} IBAN_BANKL   Bank Keys  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} IBAN_BIC   SWIFT Code for International Payments  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} IBAN   IBAN (International Bank Account Number)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WITHT   Indicator for withholding tax type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WT_WITHCD   Withholding tax code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WT_AGENT   Indicator: Withholding tax agent?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WT_AGTDF   Date (batch input)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WT_AGTDT   Date (batch input)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WT_WTSTCD   Withholding tax identification number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LNDEX   Country key for export control in customer master  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDOCO   ID: TDO boycott list for export control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDODA   Date of last check of TDO list for export control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SDNCO   ID: SDN boycott list for export control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SDNDA   Date of last check of SDN list for export control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DHRCO   ID: Customer boycott list for export control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DHRDA   Date of last check in inter. boycott list for exp. control  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KLIMG   Field of length 16  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KLIME   Field of length 16  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WAERS   Currency Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DLAUS   Date of the last general information  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDOBJECT   Texts: Application Object  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDNAME   Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDID   Text ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRAS   Language Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDTEXTTYPE   SAPscript: Format of Text  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRASISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNKKL  tns:DEBMAS07.E1KNKKL   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDFORMAT   Tag column  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDLINE   Text Line  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KKBER   Credit Control Area  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KLIMK   Field of length 16  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNKLI   Customer's account number with credit limit reference  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CTLPC   Credit management: Risk category  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DTREV   Last internal review  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CRBLB   Indicator: Blocked by credit management ?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SBGRP   Credit representative group for credit management  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NXTRV   Next internal review  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KRAUS   Credit information number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAYDB   do not use - replaced by DBPAY_CM  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DBRAT   do not use - replaced by DBRTG_CM  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} REVDB   Last review (external)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GRUPP   Customer Credit Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SBDAT   Reference Date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDGRP   Customer Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DBPAY   Payment Index  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DBRTG   Rating  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DBEKR   Recommended credit limit  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DBWAE   ISO currency code  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DBMON   Date Monitoring  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNKKH  tns:DEBMAS07.E1KNKKH   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ABLAD   Unloading Point  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNFAK   Customer's factory calendar  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WANID   Goods receiving hours ID (default value)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOAB1   Goods receipt times: Monday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOBI1   Goods receiving hours: Monday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOAB2   Goods receiving hours: Monday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOBI2   Goods receiving hours: Monday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIAB1   Goods receiving hours: Tuesday morning from...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIBI1   Goods receipt times: Tuesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIAB2   Goods receiving hours: Tuesday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIBI2   Goods receiving hours: Tuesday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIAB1   Goods receiving hours: Wednesday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIBI1   Goods receiving hours: Wednesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIAB2   Goods receiving hours: Wednesday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIBI2   Goods receiving hours: Wednesday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOAB1   Goods receiving hours: Thursday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOBI1   Goods receiving hours: Thursday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOAB2   Goods receiving hours: Thursday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOBI2   Goods receiving hours: Thursday afternoon until...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRAB1   Goods receiving hours: Friday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRBI1   Goods receiving hours: Friday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRAB2   Goods receiving hours: Friday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRBI2   Goods receiving hours: Friday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SAAB1   Goods receiving hours: Saturday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SABI1   Goods receiving hours: Saturday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SAAB2   Goods receiving hours: Saturday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SABI2   Goods receiving hours: Saturday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOAB1   Goods receiving hours: Sunday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOBI1   Goods receiving hours: Sunday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOAB2   Goods receiving hours: Sunday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOBI2   Goods receiving hours: Sunday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DEFAB   Default unloading point  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOCTP   Output Type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPRAS   Message language  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOANZ   3-Byte field  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOVER   Dispatch time  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NACHA   Message transmission medium  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPRAS_ISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ALAND   Departure country (country from which the goods are sent)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TATYP   Tax category (sales tax, federal sales tax,...)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TAXKD   Tax classification for customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDOBJECT   Texts: Application Object  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDNAME   Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDID   Text ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRAS   Language Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDTEXTTYPE   SAPscript: Format of Text  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRASISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVKL  tns:DEBMAS07.E1KNVKL   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDFORMAT   Tag column  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDLINE   Text Line  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARNR   Number of contact person  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NAMEV   First name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NAME1   Name 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ABTPA   Contact person's department at customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ABTNR   Contact person department  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UEPAR   Higher-level partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TELF1   First telephone number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ANRED   Form of address for contact person (Mr, Mrs...etc)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAFKT   Contact person function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARVO   Partner's Authority  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAVIP   VIP Partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARGE   Partner's gender  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARLA   Partner language  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} GBDAT   Date of Birth  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VRTNR   Representative number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BRYTH   Call frequency  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AKVER   Buying habits  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NMAIL   Advertising material indicator  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARAU   Notes about contact person  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARH1   Field of Interest 1  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARH2   Field of Interest 2  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARH3   Field of Interest 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARH4   Field of Interest 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARH5   Field of Interest 5  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOAB1   Contact person's visiting hours: Monday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOBI1   Contact person's visiting hours: Monday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOAB2   Contact person's visiting hours: Monday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOBI2   Contact person's visiting hours: Monday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIAB1   Contact person's visiting hours: Tuesday morning from...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIBI1   Contact person's visiting hours: Tuesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIAB2   Contact person's visiting hours: Tuesday afternoon from..  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIBI2   Contact person's visiting hours: Tuesday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIAB1   Contact person's visiting hours: Wednesday morning from...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIBI1   Contact person's visiting hours: Wednesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIAB2   Contact person's visiting hours: Wednesday afternoon from ..  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIBI2   Contact person's visiting hours: Wednesday afternoon until..  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOAB1   Contact person's visiting hours: Thursday morning from ....  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOBI1   Contact person's visiting hours: Thursday morning until ....  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOAB2   Contact person's visiting hours: Thursday afternoon from...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOBI2   Contact person's visiting hours: Thursday afternoon until ..  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRAB1   Contact person's visiting hours: Friday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRBI1   Contact person's visiting hours: Friday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRAB2   Contact person's visiting hours: Friday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRBI2   Contact person's visiting hours: Friday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SAAB1   Contact person's visiting hours: Saturday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SABI1   Contact person's visiting hours: Saturday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SAAB2   Contact person's visiting hours: Saturday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SABI2   Contact person's visiting hours: Saturday afternoon until ..  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOAB1   Contact person's visiting hours: Sunday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOBI1   Contact person's visiting hours: Sunday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOAB2   Contact person's visiting hours: Sunday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOBI2   Contact person's visiting hours: Sunday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAKN1   Field of Interest 6  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAKN2   Field of Interest 7  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAKN3   Field of Interest 8  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAKN4   Contact person: Attribute 9  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PAKN5   Contact person: Attribute 10  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SORTL   Sort field  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FAMST   Marital Status Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPNAM   Nickname  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TITEL_AP   Title of contact person (description of function)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARLA_ISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVKH  tns:DEBMAS07.E1KNVKH   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ALAND   Departure country (country from which the goods are sent)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TATYP   Tax category (sales tax, federal sales tax,...)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LICNR   License number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATAB   Valid-From Date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATBI   Valid To Date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BELIC   Confirmation for licenses  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARVW   Partner Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KUNN2   Customer number of business partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DEFPA   Default Partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KNREF   Customer description of partner (plant, storage location)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PARZA   Partner counter  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDOBJECT   Texts: Application Object  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDNAME   Name  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDID   Text ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRAS   Language Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDTEXTTYPE   SAPscript: Format of Text  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDSPRASISO   Language according to ISO 639  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVVL  tns:DEBMAS07.E1KNVVL   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDFORMAT   Tag column  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TDLINE   Text Line  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VKORG   Sales Organization  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VTWEG   Distribution Channel  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPART   Division  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BEGRU   Authorization Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOEVM   Deletion flag for customer (sales level)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VERSG   Customer Statistics Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AUFSD   Customer order block (sales area)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KALKS   Pricing procedure assigned to this customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KDGRP   Customer group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BZIRK   Sales district  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KONDA   Price group (customer)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PLTYP   Price list type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AWAHR   Order probability of the item  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} INCO1   Incoterms (Part 1)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} INCO2   Incoterms (Part 2)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LIFSD   Customer delivery block (sales area)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AUTLF   Complete delivery defined for each sales order?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ANTLF   Maximum Number of Partial Deliveries Allowed Per Item  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KZTLF   Partial delivery at item level  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KZAZU   Order Combination Indicator  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CHSPL   Batch split allowed  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LPRIO   Delivery Priority  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EIKTO   Shipper's (Our) Account Number at the Customer or Vendor  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VSBED   Shipping Conditions  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FAKSD   Billing block for customer (sales and distribution)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MRNKZ   Manual invoice maintenance  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PERFK   Invoice dates (calendar identification)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PERRL   Invoice list schedule (calendar identification)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WAERS   Currency  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KTGRD   Account assignment group for this customer  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ZTERM   Terms of Payment Key  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VWERK   Delivering Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VKGRP   Sales Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VKBUR   Sales Office  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VSORT   Item proposal  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KVGR1   Service Flatrate  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KVGR2   Customer Category  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KVGR3   Customer group 3  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KVGR4   Customer group 4  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KVGR5   Customer group 5  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BOKRE   Indicator: Customer Is Rebate-Relevant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KURST   Exchange Rate Type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PRFRE   Relevant for price determination ID  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KLABC   Customer classification (ABC analysis)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KABSS   Customer payment guarantee procedure  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KKBER   Credit Control Area  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CASSD   Sales block for customer (sales area)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RDOFF   Switch off rounding?  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AGREL   Indicator: Relevant for agency business  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MEGRU   Unit of Measure Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UEBTO   Overdelivery tolerance limit (BTCI)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UNTTO   Underdelivery tolerance (BTCI)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UEBTK   Unlimited overdelivery allowed  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PVKSM   Customer procedure for product proposal  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PODKZ   Relevant for POD processing  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PODTG   Timeframe for Confirmation of POD (BI)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BLIND   Indicator: Doc. index compilation active for purchase orders  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CARRIER_NOTIF   Carrier is to be notified  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVPM  tns:DEBMAS07.E1KNVPM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVDM  tns:DEBMAS07.E1KNVDM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVIM  tns:DEBMAS07.E1KNVIM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVLM  tns:DEBMAS07.E1KNVLM   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} E1KNVVH  tns:DEBMAS07.E1KNVVH   0 unbounded false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATKL   Material Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WWGPA   Material group material  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KEDET   Indicates exceptions to type of Inventory Management  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WWGPA_EXTERNAL   Material Group Material  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WWGPA_VERSION   Version Number (Future Development) for Field WWGPA  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WWGPA_GUID   External GUID (Future Development) for Field WWGPA  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATNR   Material Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WMATN   Posting material number of value-only or individual material  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATKL   Material Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATNR_EXTERNAL   Material Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATNR_VERSION   Version Number for MATNR Field  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATNR_GUID   External GUID for MATNR Field  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WMATN_EXTERNAL   Length of Material No. (Future Development) for Field WMATN  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WMATN_VERSION   Version Number (Future Development) for Field WMATN  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WMATN_GUID   External GUID (Future Development) for Field WMATN  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCINS   Payment cards: Card type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCNUM   Payment cards: Card number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCDEF   Payment cards: Indicator for default payment card  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCNAME   Payment cards: Name of cardholder  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATAB   Payment cards: Valid from  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATBI   Payment Cards: Valid To  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCTYP   Payment cards: Card category  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCLOCK   Payment cards: Reason for payment card block  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCGUID   GUID of a Payment Card  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EMPST   Receiving point  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KUNN2   Customer number of business partner  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ABLAD   Unloading Point  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EROED   Opening date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SCHLD   Closing date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPDAB   Block from  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPDBI   Block to  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} AUTOB   Automatic purchase order  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KOPRO   POS outbound profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LAYVR   Layout  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FLVAR   Area schema  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STFAK   Calendar  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WANID   Goods receiving hours ID (default value)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOAB1   Goods receipt times: Monday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOBI1   Goods receiving hours: Monday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOAB2   Goods receiving hours: Monday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MOBI2   Goods receiving hours: Monday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIAB1   Goods receiving hours: Tuesday morning from...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIBI1   Goods receipt times: Tuesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIAB2   Goods receiving hours: Tuesday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIBI2   Goods receiving hours: Tuesday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIAB1   Goods receiving hours: Wednesday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIBI1   Goods receiving hours: Wednesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIAB2   Goods receiving hours: Wednesday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MIBI2   Goods receiving hours: Wednesday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOAB1   Goods receiving hours: Wednesday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOBI1   Goods receiving hours: Thursday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOAB2   Goods receiving hours: Thursday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOBI2   Goods receiving hours: Thursday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRAB1   Goods receiving hours: Thursday afternoon until...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRBI1   Goods receiving hours: Friday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRAB2   Goods receiving hours: Friday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FRBI2   Goods receiving hours: Friday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SAAB1   Goods receiving hours: Friday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SABI1   Goods receiving hours: Saturday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SAAB2   Goods receiving hours: Saturday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SABI2   Goods receiving hours: Saturday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOAB1   Goods receiving hours: Sunday morning from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOBI1   Goods receiving hours: Sunday morning until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOAB2   Goods receiving hours: Sunday afternoon from ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SOBI2   Goods receiving hours: Sunday afternoon until ...  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VERFL   Sales area (floor space)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VERFE   Sales area (floor space) unit  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SPGR1   Blocking reason  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} INPRO   POS inbound profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EKOAR   POS outbound: condition type group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} KZLIK   Listing conditions should be created per assortment  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BETRP   Plant profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ERDAT   Date on Which Record Was Created  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ERNAM   Name of Person who Created the Object  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} NLMATFB   ID: Carry out subsequent listing  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BWWRK   Plant for retail price determination  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BWVKO   Sales organization for retail price determination  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BWVTW   Distribution channel for retail price determination  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BBPRO   Assortment list profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VKBUR_WRK   Sales office  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VLFKZ   Plant category  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LSTFL   Listing procedure for store or other assortment categories  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LIGRD   Basic listing rule for assortments  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VKORG   Sales organization for intercompany billing  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VTWEG   Distribution channel for intercompany billing  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DESROI   Required ROI (for ALE)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TIMINC   Time Increment for Investment Buying Algorithms (for ALE)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} POSWS   Currency of POS systems  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SSOPT_PRO   Space management profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WBPRO   Profile for value-based inventory management  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ORGPRICE   Retail: Original Price for Segment Definition E2WRF1M  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PRCTR   Profit Center  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RMA_PROF   Retail: RMA Profile for Segment Definition E2WRF1M  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RMA_VKORG   Cost allocation sales organization  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RMA_VTWEG   Cost allocation distribution channel  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATKL   Material Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATBI   Valid to date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DATAB   Valid-from date  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCLB   Supplying plant (source of supply)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PRIORITAET   Supplying Plant Priority (BI)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TRANSPORT_CHAIN   Transportation Chain  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ABTNR   Department number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EMPST   Receiving point  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VERFL   Sales area (floor space)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} VERFE   Sales area (floor space) unit  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LAYVR   Layout  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FLVAR   Area schema  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CCINS   Payment cards: Card type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MERCH   Payment cards: Merchant ID at the clearing house  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} BEZEI   Description of merchant ID of credit card company  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MSGFN   Function  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} LOCNR   Customer Number for Plant  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MATKL   Material Group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SSTUF   Assortment grade  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SORBR   Assortment length  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ABTNR   Department number  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PRIOT   Assortment Priority  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DISPR   Material: MRP profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PROPR   Forecast profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PRIMW   Price including sales tax  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} UPROF   Retail revalution profile  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} WDAUS   Exclude material group from POS outbound processing  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RQGRP   Replenishment: requirement group  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} FBPRO   Store procurement profile for store order, replenishment  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PLTYP_P   Price determination: Item-based price list type  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} PSTRA   Sales Pricing: Pricing Strategy  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MGINT   Internal Class Number of a Competitor Group (for ALE)  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SEGMENT     1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TABNAM   TABNAM  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MANDT   MANDT  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOCNUM   DOCNUM  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DOCREL   DOCREL  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STATUS   STATUS  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} DIRECT  tns:DIRECT   1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} OUTMOD   OUTMOD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} EXPRSS   EXPRSS  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} TEST   TEST  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} IDOCTYP   IDOCTYP  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CIMTYP   CIMTYP  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MESTYP   MESTYP  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MESCOD   MESCOD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} MESFCT   MESFCT  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STD   STD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STDVRS   STDVRS  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} STDMES   STDMES  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SNDPOR   SNDPOR  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SNDPRT   SNDPRT  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SNDPFC   SNDPFC  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SNDPRN   SNDPRN  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SNDSAD   SNDSAD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SNDLAD   SNDLAD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RCVPOR   RCVPOR  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RCVPRT   RCVPRT  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RCVPFC   RCVPFC  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RCVPRN   RCVPRN  1  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RCVSAD   RCVSAD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} RCVLAD   RCVLAD  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CREDAT   CREDAT  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} CRETIM   CRETIM  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} REFINT   REFINT  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} REFGRP   REFGRP  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} REFMES   REFMES  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} ARCKEY   ARCKEY  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} SERIAL   SERIAL  0  false <nil>}
+&{{http://www.w3.org/2001/XMLSchema element} Body  tns:DEBMAS.DEBMAS071   1  false <nil>}
+&{{http://schemas.xmlsoap.org/wsdl/ part} POST_DEBMASDEBMAS07Post_InputMessage  q1:POST_DEBMASDEBMAS07Post_InputMessage   0  false <nil>}
+&{{http://schemas.xmlsoap.org/wsdl/ part} POST_DEBMASDEBMAS07Post_OutputMessage  q2:POST_DEBMASDEBMAS07Post_OutputMessage   0  false <nil>}
+2018/10/09 16:54:26 generated bad code: 996:12: expected type, found '.' (and 1 more errors)
+    1	package debmasdebmas07_binding
+    2	
+    3	import (
+    4	"reflect"
+    5	
+    6	"github.com/fiorix/wsdl2go/soap"
+    7	)
+    8	
+    9	// Namespace was auto-generated from WSDL.
+   10	var Namespace = "http://www.example.com/wsdl"
+   11	
+   12	
+   13	// NewDEBMASDEBMAS07_PortType creates an initializes a DEBMASDEBMAS07_PortType.
+   14	func NewDEBMASDEBMAS07_PortType(cli *soap.Client) DEBMASDEBMAS07_PortType {
+   15		return &dEBMAS.DEBMAS07_PortType{cli}
+   16	}
+   17	
+   18	// DEBMASDEBMAS07_PortType was auto-generated from WSDL
+   19	// and defines interface for the remote service. Useful for testing.
+   20	type DEBMASDEBMAS07_PortType interface {
+   21	// DEBMAS.DEBMAS07
+   22	POST_DEBMASDEBMAS07Post(POST_DEBMASDEBMAS07Post_InputMessage *POST_DEBMASDEBMAS07Post_InputMessage) (*POST_DEBMASDEBMAS07Post_OutputMessage,error)
+   23	
+   24	}
+   25	// DIRECT was auto-generated from WSDL.
+   26	type DIRECT int64
+   27	
+   28	
+   29	// Validate validates DIRECT.
+   30	func (v DIRECT) Validate() bool {
+   31		for _, vv := range []int64 {
+   32			1,
+   33	2,
+   34	
+   35		}{
+   36			if reflect.DeepEqual(v, vv) {
+   37				return true
+   38			}
+   39		}
+   40		return false
+   41	}
+   42	// Customer master data distribution
+   43	type DEBMASDEBMAS07 struct {
+   44	BEGIN string `xml:"BEGIN" json:"BEGIN" yaml:"BEGIN" doc:""`
+   45	EDI_DC40 *EDI_DCDEBMASDEBMAS07 `xml:"EDI_DC40" json:"EDI_DC40" yaml:"EDI_DC40" doc:""`
+   46	E1KNA1M *DEBMASE1KNA1M `xml:"E1KNA1M" json:"E1KNA1M" yaml:"E1KNA1M" doc:"Master customer master basic data (KNA1)"`
+   47	}
+   48	
+   49	// DEBMASDEBMAS071 was auto-generated from WSDL.
+   50	type DEBMASDEBMAS071 struct {
+   51	Idoc *DEBMAS07 `xml:"idoc" json:"idoc" yaml:"idoc" doc:""`
+   52	}
+   53	
+   54	// DEBMAS07 was auto-generated from WSDL.
+   55	type DEBMAS07 struct {
+   56	IDOC *DEBMASDEBMAS07 `xml:"IDOC" json:"IDOC" yaml:"IDOC" doc:"Customer master data distribution"`
+   57	}
+   58	
+   59	// Customer Master: Additional General Fields  (KNA1)
+   60	type DEBMASE1KNA11 struct {
+   61	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+   62	KNURL *string `xml:"KNURL,omitempty" json:"KNURL,omitempty" yaml:"KNURL,omitempty" doc:"Uniform Resource Locator"`
+   63	J_1KFREPRE *string `xml:"J_1KFREPRE,omitempty" json:"J_1KFREPRE,omitempty" yaml:"J_1KFREPRE,omitempty" doc:"Name of Representative"`
+   64	J_1KFTBUS *string `xml:"J_1KFTBUS,omitempty" json:"J_1KFTBUS,omitempty" yaml:"J_1KFTBUS,omitempty" doc:"Type of Business"`
+   65	J_1KFTIND *string `xml:"J_1KFTIND,omitempty" json:"J_1KFTIND,omitempty" yaml:"J_1KFTIND,omitempty" doc:"Type of Industry"`
+   66	PSOIS *string `xml:"PSOIS,omitempty" json:"PSOIS,omitempty" yaml:"PSOIS,omitempty" doc:"Subledger acct preprocessing procedure"`
+   67	PSON1 *string `xml:"PSON1,omitempty" json:"PSON1,omitempty" yaml:"PSON1,omitempty" doc:"Name 1"`
+   68	PSON2 *string `xml:"PSON2,omitempty" json:"PSON2,omitempty" yaml:"PSON2,omitempty" doc:"Name 1"`
+   69	PSON3 *string `xml:"PSON3,omitempty" json:"PSON3,omitempty" yaml:"PSON3,omitempty" doc:"Name 1"`
+   70	PSOVN *string `xml:"PSOVN,omitempty" json:"PSOVN,omitempty" yaml:"PSOVN,omitempty" doc:"First Name"`
+   71	PSOTL *string `xml:"PSOTL,omitempty" json:"PSOTL,omitempty" yaml:"PSOTL,omitempty" doc:"Title"`
+   72	PSOO1 *string `xml:"PSOO1,omitempty" json:"PSOO1,omitempty" yaml:"PSOO1,omitempty" doc:"Description"`
+   73	PSOO2 *string `xml:"PSOO2,omitempty" json:"PSOO2,omitempty" yaml:"PSOO2,omitempty" doc:"Description"`
+   74	PSOO3 *string `xml:"PSOO3,omitempty" json:"PSOO3,omitempty" yaml:"PSOO3,omitempty" doc:"Description"`
+   75	PSOO4 *string `xml:"PSOO4,omitempty" json:"PSOO4,omitempty" yaml:"PSOO4,omitempty" doc:"Description"`
+   76	PSOO5 *string `xml:"PSOO5,omitempty" json:"PSOO5,omitempty" yaml:"PSOO5,omitempty" doc:"Description"`
+   77	STCD5 *string `xml:"STCD5,omitempty" json:"STCD5,omitempty" yaml:"STCD5,omitempty" doc:"Tax Number 5"`
+   78	}
+   79	
+   80	// Master customer master basic data: Texts, header
+   81	type DEBMASE1KNA1H struct {
+   82	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+   83	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+   84	TDOBJECT *string `xml:"TDOBJECT,omitempty" json:"TDOBJECT,omitempty" yaml:"TDOBJECT,omitempty" doc:"Texts: Application Object"`
+   85	TDNAME *string `xml:"TDNAME,omitempty" json:"TDNAME,omitempty" yaml:"TDNAME,omitempty" doc:"Name"`
+   86	TDID *string `xml:"TDID,omitempty" json:"TDID,omitempty" yaml:"TDID,omitempty" doc:"Text ID"`
+   87	TDSPRAS *string `xml:"TDSPRAS,omitempty" json:"TDSPRAS,omitempty" yaml:"TDSPRAS,omitempty" doc:"Language Key"`
+   88	TDTEXTTYPE *string `xml:"TDTEXTTYPE,omitempty" json:"TDTEXTTYPE,omitempty" yaml:"TDTEXTTYPE,omitempty" doc:"SAPscript: Format of Text"`
+   89	TDSPRASISO *string `xml:"TDSPRASISO,omitempty" json:"TDSPRASISO,omitempty" yaml:"TDSPRASISO,omitempty" doc:"Language according to ISO 639"`
+   90	E1KNA1L []*DEBMASE1KNA1L `xml:"E1KNA1L,omitempty" json:"E1KNA1L,omitempty" yaml:"E1KNA1L,omitempty" doc:""`
+   91	}
+   92	
+   93	// Master customer master basic data: Text line
+   94	type DEBMASE1KNA1L struct {
+   95	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+   96	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+   97	TDFORMAT *string `xml:"TDFORMAT,omitempty" json:"TDFORMAT,omitempty" yaml:"TDFORMAT,omitempty" doc:"Tag column"`
+   98	TDLINE *string `xml:"TDLINE,omitempty" json:"TDLINE,omitempty" yaml:"TDLINE,omitempty" doc:"Text Line"`
+   99	}
+  100	
+  101	// Master customer master basic data (KNA1)
+  102	type DEBMASE1KNA1M struct {
+  103	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  104	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  105	KUNNR *string `xml:"KUNNR,omitempty" json:"KUNNR,omitempty" yaml:"KUNNR,omitempty" doc:"Customer Number"`
+  106	ANRED *string `xml:"ANRED,omitempty" json:"ANRED,omitempty" yaml:"ANRED,omitempty" doc:"Title"`
+  107	AUFSD *string `xml:"AUFSD,omitempty" json:"AUFSD,omitempty" yaml:"AUFSD,omitempty" doc:"Central order block for customer"`
+  108	BAHNE *string `xml:"BAHNE,omitempty" json:"BAHNE,omitempty" yaml:"BAHNE,omitempty" doc:"Express train station"`
+  109	BAHNS *string `xml:"BAHNS,omitempty" json:"BAHNS,omitempty" yaml:"BAHNS,omitempty" doc:"Train station"`
+  110	BBBNR *string `xml:"BBBNR,omitempty" json:"BBBNR,omitempty" yaml:"BBBNR,omitempty" doc:"International location number  (part 1)"`
+  111	BBSNR *string `xml:"BBSNR,omitempty" json:"BBSNR,omitempty" yaml:"BBSNR,omitempty" doc:"International location number (Part 2)"`
+  112	BEGRU *string `xml:"BEGRU,omitempty" json:"BEGRU,omitempty" yaml:"BEGRU,omitempty" doc:"Authorization Group"`
+  113	BRSCH *string `xml:"BRSCH,omitempty" json:"BRSCH,omitempty" yaml:"BRSCH,omitempty" doc:"Industry key"`
+  114	BUBKZ *string `xml:"BUBKZ,omitempty" json:"BUBKZ,omitempty" yaml:"BUBKZ,omitempty" doc:"Check digit for the international location number"`
+  115	DATLT *string `xml:"DATLT,omitempty" json:"DATLT,omitempty" yaml:"DATLT,omitempty" doc:"Data communication line no."`
+  116	FAKSD *string `xml:"FAKSD,omitempty" json:"FAKSD,omitempty" yaml:"FAKSD,omitempty" doc:"Central billing block for customer"`
+  117	FISKN *string `xml:"FISKN,omitempty" json:"FISKN,omitempty" yaml:"FISKN,omitempty" doc:"Account number of the master record with the fiscal address"`
+  118	KNRZA *string `xml:"KNRZA,omitempty" json:"KNRZA,omitempty" yaml:"KNRZA,omitempty" doc:"Account number of an alternative payer"`
+  119	KONZS *string `xml:"KONZS,omitempty" json:"KONZS,omitempty" yaml:"KONZS,omitempty" doc:"Group key"`
+  120	KTOKD *string `xml:"KTOKD,omitempty" json:"KTOKD,omitempty" yaml:"KTOKD,omitempty" doc:"Customer Account Group"`
+  121	KUKLA *string `xml:"KUKLA,omitempty" json:"KUKLA,omitempty" yaml:"KUKLA,omitempty" doc:"Customer classification"`
+  122	LAND1 *string `xml:"LAND1,omitempty" json:"LAND1,omitempty" yaml:"LAND1,omitempty" doc:"Country Key"`
+  123	LIFNR *string `xml:"LIFNR,omitempty" json:"LIFNR,omitempty" yaml:"LIFNR,omitempty" doc:"Account Number of Vendor or Creditor"`
+  124	LIFSD *string `xml:"LIFSD,omitempty" json:"LIFSD,omitempty" yaml:"LIFSD,omitempty" doc:"Central delivery block for the customer"`
+  125	LOCCO *string `xml:"LOCCO,omitempty" json:"LOCCO,omitempty" yaml:"LOCCO,omitempty" doc:"City Coordinates"`
+  126	LOEVM *string `xml:"LOEVM,omitempty" json:"LOEVM,omitempty" yaml:"LOEVM,omitempty" doc:"Central Deletion Flag for Master Record"`
+  127	NAME1 *string `xml:"NAME1,omitempty" json:"NAME1,omitempty" yaml:"NAME1,omitempty" doc:"Name 1"`
+  128	NAME2 *string `xml:"NAME2,omitempty" json:"NAME2,omitempty" yaml:"NAME2,omitempty" doc:"Name 2"`
+  129	NAME3 *string `xml:"NAME3,omitempty" json:"NAME3,omitempty" yaml:"NAME3,omitempty" doc:"Name 3"`
+  130	NAME4 *string `xml:"NAME4,omitempty" json:"NAME4,omitempty" yaml:"NAME4,omitempty" doc:"Name 4"`
+  131	NIELS *string `xml:"NIELS,omitempty" json:"NIELS,omitempty" yaml:"NIELS,omitempty" doc:"Nielsen ID"`
+  132	ORT01 *string `xml:"ORT01,omitempty" json:"ORT01,omitempty" yaml:"ORT01,omitempty" doc:"City"`
+  133	ORT02 *string `xml:"ORT02,omitempty" json:"ORT02,omitempty" yaml:"ORT02,omitempty" doc:"District"`
+  134	PFACH *string `xml:"PFACH,omitempty" json:"PFACH,omitempty" yaml:"PFACH,omitempty" doc:"PO Box"`
+  135	PSTL2 *string `xml:"PSTL2,omitempty" json:"PSTL2,omitempty" yaml:"PSTL2,omitempty" doc:"P.O. Box Postal Code"`
+  136	PSTLZ *string `xml:"PSTLZ,omitempty" json:"PSTLZ,omitempty" yaml:"PSTLZ,omitempty" doc:"Postal Code"`
+  137	REGIO *string `xml:"REGIO,omitempty" json:"REGIO,omitempty" yaml:"REGIO,omitempty" doc:"Region (State, Province, County)"`
+  138	COUNC *string `xml:"COUNC,omitempty" json:"COUNC,omitempty" yaml:"COUNC,omitempty" doc:"County Code"`
+  139	CITYC *string `xml:"CITYC,omitempty" json:"CITYC,omitempty" yaml:"CITYC,omitempty" doc:"City Code"`
+  140	RPMKR *string `xml:"RPMKR,omitempty" json:"RPMKR,omitempty" yaml:"RPMKR,omitempty" doc:"Regional Market"`
+  141	SORTL *string `xml:"SORTL,omitempty" json:"SORTL,omitempty" yaml:"SORTL,omitempty" doc:"Sort field"`
+  142	SPERR *string `xml:"SPERR,omitempty" json:"SPERR,omitempty" yaml:"SPERR,omitempty" doc:"Central posting block"`
+  143	SPRAS *string `xml:"SPRAS,omitempty" json:"SPRAS,omitempty" yaml:"SPRAS,omitempty" doc:"Language Key"`
+  144	STCD1 *string `xml:"STCD1,omitempty" json:"STCD1,omitempty" yaml:"STCD1,omitempty" doc:"Tax Number 1"`
+  145	STCD2 *string `xml:"STCD2,omitempty" json:"STCD2,omitempty" yaml:"STCD2,omitempty" doc:"Tax Number 2"`
+  146	STKZA *string `xml:"STKZA,omitempty" json:"STKZA,omitempty" yaml:"STKZA,omitempty" doc:"Indicator: Business Partner Subject to Equalization Tax?"`
+  147	STKZU *string `xml:"STKZU,omitempty" json:"STKZU,omitempty" yaml:"STKZU,omitempty" doc:"Liable for VAT"`
+  148	STRAS *string `xml:"STRAS,omitempty" json:"STRAS,omitempty" yaml:"STRAS,omitempty" doc:"House number and street"`
+  149	TELBX *string `xml:"TELBX,omitempty" json:"TELBX,omitempty" yaml:"TELBX,omitempty" doc:"Telebox number"`
+  150	TELF1 *string `xml:"TELF1,omitempty" json:"TELF1,omitempty" yaml:"TELF1,omitempty" doc:"First telephone number"`
+  151	TELF2 *string `xml:"TELF2,omitempty" json:"TELF2,omitempty" yaml:"TELF2,omitempty" doc:"Second telephone number"`
+  152	TELFX *string `xml:"TELFX,omitempty" json:"TELFX,omitempty" yaml:"TELFX,omitempty" doc:"Fax Number"`
+  153	TELTX *string `xml:"TELTX,omitempty" json:"TELTX,omitempty" yaml:"TELTX,omitempty" doc:"Teletex number"`
+  154	TELX1 *string `xml:"TELX1,omitempty" json:"TELX1,omitempty" yaml:"TELX1,omitempty" doc:"Telex number"`
+  155	LZONE *string `xml:"LZONE,omitempty" json:"LZONE,omitempty" yaml:"LZONE,omitempty" doc:"Transportation zone to or from which the goods are delivered"`
+  156	XZEMP *string `xml:"XZEMP,omitempty" json:"XZEMP,omitempty" yaml:"XZEMP,omitempty" doc:"Indicator: Alternative payee in document allowed ?"`
+  157	VBUND *string `xml:"VBUND,omitempty" json:"VBUND,omitempty" yaml:"VBUND,omitempty" doc:"Company ID of Trading Partner"`
+  158	STCEG *string `xml:"STCEG,omitempty" json:"STCEG,omitempty" yaml:"STCEG,omitempty" doc:"VAT Registration Number"`
+  159	GFORM *string `xml:"GFORM,omitempty" json:"GFORM,omitempty" yaml:"GFORM,omitempty" doc:"Legal status"`
+  160	BRAN1 *string `xml:"BRAN1,omitempty" json:"BRAN1,omitempty" yaml:"BRAN1,omitempty" doc:"Industry Code 1"`
+  161	BRAN2 *string `xml:"BRAN2,omitempty" json:"BRAN2,omitempty" yaml:"BRAN2,omitempty" doc:"Industry code 2"`
+  162	BRAN3 *string `xml:"BRAN3,omitempty" json:"BRAN3,omitempty" yaml:"BRAN3,omitempty" doc:"Industry code 3"`
+  163	BRAN4 *string `xml:"BRAN4,omitempty" json:"BRAN4,omitempty" yaml:"BRAN4,omitempty" doc:"Industry code 4"`
+  164	BRAN5 *string `xml:"BRAN5,omitempty" json:"BRAN5,omitempty" yaml:"BRAN5,omitempty" doc:"Industry code 5"`
+  165	UMJAH *string `xml:"UMJAH,omitempty" json:"UMJAH,omitempty" yaml:"UMJAH,omitempty" doc:"Year For Which Sales are Given"`
+  166	UWAER *string `xml:"UWAER,omitempty" json:"UWAER,omitempty" yaml:"UWAER,omitempty" doc:"Currency of sales figure"`
+  167	JMZAH *string `xml:"JMZAH,omitempty" json:"JMZAH,omitempty" yaml:"JMZAH,omitempty" doc:"Yearly number of employees"`
+  168	JMJAH *string `xml:"JMJAH,omitempty" json:"JMJAH,omitempty" yaml:"JMJAH,omitempty" doc:"Year for which the number of employees is given"`
+  169	KATR1 *string `xml:"KATR1,omitempty" json:"KATR1,omitempty" yaml:"KATR1,omitempty" doc:"e-Shop"`
+  170	KATR2 *string `xml:"KATR2,omitempty" json:"KATR2,omitempty" yaml:"KATR2,omitempty" doc:"Attribute 2"`
+  171	KATR3 *string `xml:"KATR3,omitempty" json:"KATR3,omitempty" yaml:"KATR3,omitempty" doc:"Attribute 3"`
+  172	KATR4 *string `xml:"KATR4,omitempty" json:"KATR4,omitempty" yaml:"KATR4,omitempty" doc:"Attribute 4"`
+  173	KATR5 *string `xml:"KATR5,omitempty" json:"KATR5,omitempty" yaml:"KATR5,omitempty" doc:"Attribute 5"`
+  174	KATR6 *string `xml:"KATR6,omitempty" json:"KATR6,omitempty" yaml:"KATR6,omitempty" doc:"Attribute 6"`
+  175	KATR7 *string `xml:"KATR7,omitempty" json:"KATR7,omitempty" yaml:"KATR7,omitempty" doc:"Attribute 7"`
+  176	KATR8 *string `xml:"KATR8,omitempty" json:"KATR8,omitempty" yaml:"KATR8,omitempty" doc:"Attribute 8"`
+  177	KATR9 *string `xml:"KATR9,omitempty" json:"KATR9,omitempty" yaml:"KATR9,omitempty" doc:"Attribute 9"`
+  178	KATR10 *string `xml:"KATR10,omitempty" json:"KATR10,omitempty" yaml:"KATR10,omitempty" doc:"Attribute 10"`
+  179	STKZN *string `xml:"STKZN,omitempty" json:"STKZN,omitempty" yaml:"STKZN,omitempty" doc:"Natural Person"`
+  180	UMSA1 *string `xml:"UMSA1,omitempty" json:"UMSA1,omitempty" yaml:"UMSA1,omitempty" doc:"Field of length 16"`
+  181	TXJCD *string `xml:"TXJCD,omitempty" json:"TXJCD,omitempty" yaml:"TXJCD,omitempty" doc:"Tax Jurisdiction"`
+  182	PERIV *string `xml:"PERIV,omitempty" json:"PERIV,omitempty" yaml:"PERIV,omitempty" doc:"Fiscal Year Variant"`
+  183	KTOCD *string `xml:"KTOCD,omitempty" json:"KTOCD,omitempty" yaml:"KTOCD,omitempty" doc:"Reference Account Group for One-Time Account (Customer)"`
+  184	PFORT *string `xml:"PFORT,omitempty" json:"PFORT,omitempty" yaml:"PFORT,omitempty" doc:"PO Box city"`
+  185	DTAMS *string `xml:"DTAMS,omitempty" json:"DTAMS,omitempty" yaml:"DTAMS,omitempty" doc:"Indicator for Data Medium Exchange"`
+  186	DTAWS *string `xml:"DTAWS,omitempty" json:"DTAWS,omitempty" yaml:"DTAWS,omitempty" doc:"Instruction key for data medium exchange"`
+  187	HZUOR *string `xml:"HZUOR,omitempty" json:"HZUOR,omitempty" yaml:"HZUOR,omitempty" doc:"Hierarchy assignment (batch input)"`
+  188	CIVVE *string `xml:"CIVVE,omitempty" json:"CIVVE,omitempty" yaml:"CIVVE,omitempty" doc:"ID for mainly non-military use"`
+  189	MILVE *string `xml:"MILVE,omitempty" json:"MILVE,omitempty" yaml:"MILVE,omitempty" doc:"ID for mainly military use"`
+  190	SPRAS_ISO *string `xml:"SPRAS_ISO,omitempty" json:"SPRAS_ISO,omitempty" yaml:"SPRAS_ISO,omitempty" doc:"Language according to ISO 639"`
+  191	FITYP *string `xml:"FITYP,omitempty" json:"FITYP,omitempty" yaml:"FITYP,omitempty" doc:"Tax type"`
+  192	STCDT *string `xml:"STCDT,omitempty" json:"STCDT,omitempty" yaml:"STCDT,omitempty" doc:"Tax Number Type"`
+  193	STCD3 *string `xml:"STCD3,omitempty" json:"STCD3,omitempty" yaml:"STCD3,omitempty" doc:"Tax Number 3"`
+  194	STCD4 *string `xml:"STCD4,omitempty" json:"STCD4,omitempty" yaml:"STCD4,omitempty" doc:"Tax Number 4"`
+  195	XICMS *string `xml:"XICMS,omitempty" json:"XICMS,omitempty" yaml:"XICMS,omitempty" doc:"Customer is ICMS-exempt"`
+  196	XXIPI *string `xml:"XXIPI,omitempty" json:"XXIPI,omitempty" yaml:"XXIPI,omitempty" doc:"Customer is IPI-exempt"`
+  197	XSUBT *string `xml:"XSUBT,omitempty" json:"XSUBT,omitempty" yaml:"XSUBT,omitempty" doc:"Customer group of Substituiçao Tributária calculation- old!!"`
+  198	CFOPC *string `xml:"CFOPC,omitempty" json:"CFOPC,omitempty" yaml:"CFOPC,omitempty" doc:"Customer's CFOP category"`
+  199	TXLW1 *string `xml:"TXLW1,omitempty" json:"TXLW1,omitempty" yaml:"TXLW1,omitempty" doc:"Tax law: ICMS"`
+  200	TXLW2 *string `xml:"TXLW2,omitempty" json:"TXLW2,omitempty" yaml:"TXLW2,omitempty" doc:"Tax law: IPI"`
+  201	CCC01 *string `xml:"CCC01,omitempty" json:"CCC01,omitempty" yaml:"CCC01,omitempty" doc:"Indicator for biochemical warfare for legal control"`
+  202	CCC02 *string `xml:"CCC02,omitempty" json:"CCC02,omitempty" yaml:"CCC02,omitempty" doc:"Indicator for nuclear nonproliferation for legal control"`
+  203	CCC03 *string `xml:"CCC03,omitempty" json:"CCC03,omitempty" yaml:"CCC03,omitempty" doc:"Indicator for national security for legal control"`
+  204	CCC04 *string `xml:"CCC04,omitempty" json:"CCC04,omitempty" yaml:"CCC04,omitempty" doc:"Indicator for missile technology for legal control"`
+  205	CASSD *string `xml:"CASSD,omitempty" json:"CASSD,omitempty" yaml:"CASSD,omitempty" doc:"Central sales block for customer"`
+  206	KDKG1 *string `xml:"KDKG1,omitempty" json:"KDKG1,omitempty" yaml:"KDKG1,omitempty" doc:"Customer condition group 1"`
+  207	KDKG2 *string `xml:"KDKG2,omitempty" json:"KDKG2,omitempty" yaml:"KDKG2,omitempty" doc:"Customer condition group 2"`
+  208	KDKG3 *string `xml:"KDKG3,omitempty" json:"KDKG3,omitempty" yaml:"KDKG3,omitempty" doc:"Customer condition group 3"`
+  209	KDKG4 *string `xml:"KDKG4,omitempty" json:"KDKG4,omitempty" yaml:"KDKG4,omitempty" doc:"Customer condition group 4"`
+  210	KDKG5 *string `xml:"KDKG5,omitempty" json:"KDKG5,omitempty" yaml:"KDKG5,omitempty" doc:"Customer condition group 5"`
+  211	NODEL *string `xml:"NODEL,omitempty" json:"NODEL,omitempty" yaml:"NODEL,omitempty" doc:"Central deletion block for master record"`
+  212	XSUB2 *string `xml:"XSUB2,omitempty" json:"XSUB2,omitempty" yaml:"XSUB2,omitempty" doc:"Customer group for Substituiçao Tributária calculation"`
+  213	WERKS *string `xml:"WERKS,omitempty" json:"WERKS,omitempty" yaml:"WERKS,omitempty" doc:"Plant"`
+  214	E1KNA11 *DEBMASE1KNA11 `xml:"E1KNA11,omitempty" json:"E1KNA11,omitempty" yaml:"E1KNA11,omitempty" doc:"Customer Master: Additional General Fields  (KNA1)"`
+  215	E1KNA1H []*DEBMASE1KNA1H `xml:"E1KNA1H,omitempty" json:"E1KNA1H,omitempty" yaml:"E1KNA1H,omitempty" doc:""`
+  216	E1KNVVM []*DEBMASE1KNVVM `xml:"E1KNVVM,omitempty" json:"E1KNVVM,omitempty" yaml:"E1KNVVM,omitempty" doc:""`
+  217	E1KNB1M []*DEBMASE1KNB1M `xml:"E1KNB1M,omitempty" json:"E1KNB1M,omitempty" yaml:"E1KNB1M,omitempty" doc:""`
+  218	E1KNBKM []*DEBMASE1KNBKM `xml:"E1KNBKM,omitempty" json:"E1KNBKM,omitempty" yaml:"E1KNBKM,omitempty" doc:""`
+  219	E1KNVAM []*DEBMASE1KNVAM `xml:"E1KNVAM,omitempty" json:"E1KNVAM,omitempty" yaml:"E1KNVAM,omitempty" doc:""`
+  220	E1WRF12 []*DEBMASE1WRF12 `xml:"E1WRF12,omitempty" json:"E1WRF12,omitempty" yaml:"E1WRF12,omitempty" doc:""`
+  221	E1WRF4M []*DEBMASE1WRF4M `xml:"E1WRF4M,omitempty" json:"E1WRF4M,omitempty" yaml:"E1WRF4M,omitempty" doc:""`
+  222	E1KNVKM []*DEBMASE1KNVKM `xml:"E1KNVKM,omitempty" json:"E1KNVKM,omitempty" yaml:"E1KNVKM,omitempty" doc:""`
+  223	E1KNEXM []*DEBMASE1KNEXM `xml:"E1KNEXM,omitempty" json:"E1KNEXM,omitempty" yaml:"E1KNEXM,omitempty" doc:""`
+  224	E1KNASM []*DEBMASE1KNASM `xml:"E1KNASM,omitempty" json:"E1KNASM,omitempty" yaml:"E1KNASM,omitempty" doc:""`
+  225	E1KNKAM *DEBMASE1KNKAM `xml:"E1KNKAM,omitempty" json:"E1KNKAM,omitempty" yaml:"E1KNKAM,omitempty" doc:"Master customer master credit management central data (KNKA)"`
+  226	E1KNATM []*DEBMASE1KNATM `xml:"E1KNATM,omitempty" json:"E1KNATM,omitempty" yaml:"E1KNATM,omitempty" doc:""`
+  227	E1KNKKM []*DEBMASE1KNKKM `xml:"E1KNKKM,omitempty" json:"E1KNKKM,omitempty" yaml:"E1KNKKM,omitempty" doc:""`
+  228	E1VCKUN []*DEBMASE1VCKUN `xml:"E1VCKUN,omitempty" json:"E1VCKUN,omitempty" yaml:"E1VCKUN,omitempty" doc:""`
+  229	E1WRF1M []*DEBMASE1WRF1M `xml:"E1WRF1M,omitempty" json:"E1WRF1M,omitempty" yaml:"E1WRF1M,omitempty" doc:""`
+  230	E1WRF3M []*DEBMASE1WRF3M `xml:"E1WRF3M,omitempty" json:"E1WRF3M,omitempty" yaml:"E1WRF3M,omitempty" doc:""`
+  231	E1WRF5M []*DEBMASE1WRF5M `xml:"E1WRF5M,omitempty" json:"E1WRF5M,omitempty" yaml:"E1WRF5M,omitempty" doc:""`
+  232	E1WRF6M []*DEBMASE1WRF6M `xml:"E1WRF6M,omitempty" json:"E1WRF6M,omitempty" yaml:"E1WRF6M,omitempty" doc:""`
+  233	E1T023W []*DEBMASE1T023W `xml:"E1T023W,omitempty" json:"E1T023W,omitempty" yaml:"E1T023W,omitempty" doc:""`
+  234	E1T023X []*DEBMASE1T023X `xml:"E1T023X,omitempty" json:"E1T023X,omitempty" yaml:"E1T023X,omitempty" doc:""`
+  235	}
+  236	
+  237	// Master customer master additional EU tax number
+  238	type DEBMASE1KNASM struct {
+  239	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  240	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  241	LAND1 *string `xml:"LAND1,omitempty" json:"LAND1,omitempty" yaml:"LAND1,omitempty" doc:"Country Key"`
+  242	STCEG *string `xml:"STCEG,omitempty" json:"STCEG,omitempty" yaml:"STCEG,omitempty" doc:"VAT Registration Number"`
+  243	}
+  244	
+  245	// Master customer master tax categories (KNAT)
+  246	type DEBMASE1KNATM struct {
+  247	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  248	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  249	TAXGR *string `xml:"TAXGR,omitempty" json:"TAXGR,omitempty" yaml:"TAXGR,omitempty" doc:"Category indicator for tax codes"`
+  250	SBJDF *string `xml:"SBJDF,omitempty" json:"SBJDF,omitempty" yaml:"SBJDF,omitempty" doc:"Character field, 8 characters long"`
+  251	SBJDT *string `xml:"SBJDT,omitempty" json:"SBJDT,omitempty" yaml:"SBJDT,omitempty" doc:"Character field, 8 characters long"`
+  252	EXNR *string `xml:"EXNR,omitempty" json:"EXNR,omitempty" yaml:"EXNR,omitempty" doc:"Number of exemption certificate"`
+  253	EXRT *string `xml:"EXRT,omitempty" json:"EXRT,omitempty" yaml:"EXRT,omitempty" doc:"R/2 table"`
+  254	EXDF *string `xml:"EXDF,omitempty" json:"EXDF,omitempty" yaml:"EXDF,omitempty" doc:"Character field, 8 characters long"`
+  255	EXDT *string `xml:"EXDT,omitempty" json:"EXDT,omitempty" yaml:"EXDT,omitempty" doc:"Character field, 8 characters long"`
+  256	}
+  257	
+  258	// Master customer master company code: Texts, header
+  259	type DEBMASE1KNB1H struct {
+  260	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  261	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  262	TDOBJECT *string `xml:"TDOBJECT,omitempty" json:"TDOBJECT,omitempty" yaml:"TDOBJECT,omitempty" doc:"Texts: Application Object"`
+  263	TDNAME *string `xml:"TDNAME,omitempty" json:"TDNAME,omitempty" yaml:"TDNAME,omitempty" doc:"Name"`
+  264	TDID *string `xml:"TDID,omitempty" json:"TDID,omitempty" yaml:"TDID,omitempty" doc:"Text ID"`
+  265	TDSPRAS *string `xml:"TDSPRAS,omitempty" json:"TDSPRAS,omitempty" yaml:"TDSPRAS,omitempty" doc:"Language Key"`
+  266	TDTEXTTYPE *string `xml:"TDTEXTTYPE,omitempty" json:"TDTEXTTYPE,omitempty" yaml:"TDTEXTTYPE,omitempty" doc:"SAPscript: Format of Text"`
+  267	TDSPRASISO *string `xml:"TDSPRASISO,omitempty" json:"TDSPRASISO,omitempty" yaml:"TDSPRASISO,omitempty" doc:"Language according to ISO 639"`
+  268	E1KNB1L []*DEBMASE1KNB1L `xml:"E1KNB1L,omitempty" json:"E1KNB1L,omitempty" yaml:"E1KNB1L,omitempty" doc:""`
+  269	}
+  270	
+  271	// Master customer master company code: text line
+  272	type DEBMASE1KNB1L struct {
+  273	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  274	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  275	TDFORMAT *string `xml:"TDFORMAT,omitempty" json:"TDFORMAT,omitempty" yaml:"TDFORMAT,omitempty" doc:"Tag column"`
+  276	TDLINE *string `xml:"TDLINE,omitempty" json:"TDLINE,omitempty" yaml:"TDLINE,omitempty" doc:"Text Line"`
+  277	}
+  278	
+  279	// Master Customer Master Company Code (KNB1)
+  280	type DEBMASE1KNB1M struct {
+  281	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  282	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  283	BUKRS *string `xml:"BUKRS,omitempty" json:"BUKRS,omitempty" yaml:"BUKRS,omitempty" doc:"Company Code"`
+  284	SPERR *string `xml:"SPERR,omitempty" json:"SPERR,omitempty" yaml:"SPERR,omitempty" doc:"Posting block for company code"`
+  285	LOEVM *string `xml:"LOEVM,omitempty" json:"LOEVM,omitempty" yaml:"LOEVM,omitempty" doc:"Deletion Flag for Master Record (Company Code Level)"`
+  286	ZUAWA *string `xml:"ZUAWA,omitempty" json:"ZUAWA,omitempty" yaml:"ZUAWA,omitempty" doc:"Key for sorting according to assignment numbers"`
+  287	BUSAB *string `xml:"BUSAB,omitempty" json:"BUSAB,omitempty" yaml:"BUSAB,omitempty" doc:"Accounting clerk"`
+  288	AKONT *string `xml:"AKONT,omitempty" json:"AKONT,omitempty" yaml:"AKONT,omitempty" doc:"Reconciliation Account in General Ledger"`
+  289	BEGRU *string `xml:"BEGRU,omitempty" json:"BEGRU,omitempty" yaml:"BEGRU,omitempty" doc:"Authorization Group"`
+  290	KNRZE *string `xml:"KNRZE,omitempty" json:"KNRZE,omitempty" yaml:"KNRZE,omitempty" doc:"Head office account number (in branch accounts)"`
+  291	KNRZB *string `xml:"KNRZB,omitempty" json:"KNRZB,omitempty" yaml:"KNRZB,omitempty" doc:"Account number of an alternative payer"`
+  292	ZAMIM *string `xml:"ZAMIM,omitempty" json:"ZAMIM,omitempty" yaml:"ZAMIM,omitempty" doc:"Indicator: Payment notice to customer (with cleared items)?"`
+  293	ZAMIV *string `xml:"ZAMIV,omitempty" json:"ZAMIV,omitempty" yaml:"ZAMIV,omitempty" doc:"Indicator: payment notice to sales department?"`
+  294	ZAMIR *string `xml:"ZAMIR,omitempty" json:"ZAMIR,omitempty" yaml:"ZAMIR,omitempty" doc:"Indicator: payment notice to legal department?"`
+  295	ZAMIB *string `xml:"ZAMIB,omitempty" json:"ZAMIB,omitempty" yaml:"ZAMIB,omitempty" doc:"Indicator: Payment notice to the accounting department ?"`
+  296	ZAMIO *string `xml:"ZAMIO,omitempty" json:"ZAMIO,omitempty" yaml:"ZAMIO,omitempty" doc:"Indicator: payment notice to customer (w/o cleared items)?"`
+  297	ZWELS *string `xml:"ZWELS,omitempty" json:"ZWELS,omitempty" yaml:"ZWELS,omitempty" doc:"List of the Payment Methods to be Considered"`
+  298	XVERR *string `xml:"XVERR,omitempty" json:"XVERR,omitempty" yaml:"XVERR,omitempty" doc:"Indicator: Clearing between customer and vendor ?"`
+  299	ZAHLS *string `xml:"ZAHLS,omitempty" json:"ZAHLS,omitempty" yaml:"ZAHLS,omitempty" doc:"Block Key for Payment"`
+  300	ZTERM *string `xml:"ZTERM,omitempty" json:"ZTERM,omitempty" yaml:"ZTERM,omitempty" doc:"Terms of Payment Key"`
+  301	WAKON *string `xml:"WAKON,omitempty" json:"WAKON,omitempty" yaml:"WAKON,omitempty" doc:"Terms of payment key for bill of exchange charges"`
+  302	VZSKZ *string `xml:"VZSKZ,omitempty" json:"VZSKZ,omitempty" yaml:"VZSKZ,omitempty" doc:"Interest calculation indicator"`
+  303	ZINDT *string `xml:"ZINDT,omitempty" json:"ZINDT,omitempty" yaml:"ZINDT,omitempty" doc:"Key date of the last interest calculation"`
+  304	ZINRT *string `xml:"ZINRT,omitempty" json:"ZINRT,omitempty" yaml:"ZINRT,omitempty" doc:"Interest calculation frequency in months"`
+  305	EIKTO *string `xml:"EIKTO,omitempty" json:"EIKTO,omitempty" yaml:"EIKTO,omitempty" doc:"Our account number at customer"`
+  306	ZSABE *string `xml:"ZSABE,omitempty" json:"ZSABE,omitempty" yaml:"ZSABE,omitempty" doc:"User at customer"`
+  307	KVERM *string `xml:"KVERM,omitempty" json:"KVERM,omitempty" yaml:"KVERM,omitempty" doc:"Memo"`
+  308	FDGRV *string `xml:"FDGRV,omitempty" json:"FDGRV,omitempty" yaml:"FDGRV,omitempty" doc:"Planning group"`
+  309	VRBKZ *string `xml:"VRBKZ,omitempty" json:"VRBKZ,omitempty" yaml:"VRBKZ,omitempty" doc:"Export credit insurance institution number"`
+  310	VLIBB *string `xml:"VLIBB,omitempty" json:"VLIBB,omitempty" yaml:"VLIBB,omitempty" doc:"Amount Insured"`
+  311	VRSZL *string `xml:"VRSZL,omitempty" json:"VRSZL,omitempty" yaml:"VRSZL,omitempty" doc:"Insurance lead months"`
+  312	VRSPR *string `xml:"VRSPR,omitempty" json:"VRSPR,omitempty" yaml:"VRSPR,omitempty" doc:"Deductible percentage rate"`
+  313	VRSNR *string `xml:"VRSNR,omitempty" json:"VRSNR,omitempty" yaml:"VRSNR,omitempty" doc:"Insurance number"`
+  314	VERDT *string `xml:"VERDT,omitempty" json:"VERDT,omitempty" yaml:"VERDT,omitempty" doc:"Insurance validity date"`
+  315	PERKZ *string `xml:"PERKZ,omitempty" json:"PERKZ,omitempty" yaml:"PERKZ,omitempty" doc:"Collective invoice variant"`
+  316	XDEZV *string `xml:"XDEZV,omitempty" json:"XDEZV,omitempty" yaml:"XDEZV,omitempty" doc:"Indicator: Local processing?"`
+  317	XAUSZ *string `xml:"XAUSZ,omitempty" json:"XAUSZ,omitempty" yaml:"XAUSZ,omitempty" doc:"Indicator for periodic account statements"`
+  318	WEBTR *string `xml:"WEBTR,omitempty" json:"WEBTR,omitempty" yaml:"WEBTR,omitempty" doc:"Bill of exchange limit (in local currency)"`
+  319	REMIT *string `xml:"REMIT,omitempty" json:"REMIT,omitempty" yaml:"REMIT,omitempty" doc:"Next payee"`
+  320	DATLZ *string `xml:"DATLZ,omitempty" json:"DATLZ,omitempty" yaml:"DATLZ,omitempty" doc:"Date of the last interest calculation run"`
+  321	XZVER *string `xml:"XZVER,omitempty" json:"XZVER,omitempty" yaml:"XZVER,omitempty" doc:"Indicator: Record Payment History ?"`
+  322	TOGRU *string `xml:"TOGRU,omitempty" json:"TOGRU,omitempty" yaml:"TOGRU,omitempty" doc:"Tolerance group for the business partner/G/L account"`
+  323	KULTG *string `xml:"KULTG,omitempty" json:"KULTG,omitempty" yaml:"KULTG,omitempty" doc:"Probable time until check is paid"`
+  324	HBKID *string `xml:"HBKID,omitempty" json:"HBKID,omitempty" yaml:"HBKID,omitempty" doc:"Short Key for a House Bank"`
+  325	XPORE *string `xml:"XPORE,omitempty" json:"XPORE,omitempty" yaml:"XPORE,omitempty" doc:"Indicator: Pay all items separately ?"`
+  326	BLNKZ *string `xml:"BLNKZ,omitempty" json:"BLNKZ,omitempty" yaml:"BLNKZ,omitempty" doc:"Subsidy Indicator for Determining the Reduction Rates"`
+  327	ALTKN *string `xml:"ALTKN,omitempty" json:"ALTKN,omitempty" yaml:"ALTKN,omitempty" doc:"Previous Master Record Number"`
+  328	ZGRUP *string `xml:"ZGRUP,omitempty" json:"ZGRUP,omitempty" yaml:"ZGRUP,omitempty" doc:"Key for Payment Grouping"`
+  329	URLID *string `xml:"URLID,omitempty" json:"URLID,omitempty" yaml:"URLID,omitempty" doc:"Short Key for Known/Negotiated Leave"`
+  330	MGRUP *string `xml:"MGRUP,omitempty" json:"MGRUP,omitempty" yaml:"MGRUP,omitempty" doc:"Key for dunning notice grouping"`
+  331	LOCKB *string `xml:"LOCKB,omitempty" json:"LOCKB,omitempty" yaml:"LOCKB,omitempty" doc:"Key of the Lockbox to Which the Customer Is To Pay"`
+  332	UZAWE *string `xml:"UZAWE,omitempty" json:"UZAWE,omitempty" yaml:"UZAWE,omitempty" doc:"Payment Method Supplement"`
+  333	EKVBD *string `xml:"EKVBD,omitempty" json:"EKVBD,omitempty" yaml:"EKVBD,omitempty" doc:"Account Number of Buying Group"`
+  334	SREGL *string `xml:"SREGL,omitempty" json:"SREGL,omitempty" yaml:"SREGL,omitempty" doc:"Selection Rule for Payment Advices"`
+  335	XEDIP *string `xml:"XEDIP,omitempty" json:"XEDIP,omitempty" yaml:"XEDIP,omitempty" doc:"Indicator: Send Payment Advices by EDI"`
+  336	FRGRP *string `xml:"FRGRP,omitempty" json:"FRGRP,omitempty" yaml:"FRGRP,omitempty" doc:"Release Approval Group"`
+  337	VRSDG *string `xml:"VRSDG,omitempty" json:"VRSDG,omitempty" yaml:"VRSDG,omitempty" doc:"Reason Code Conversion Version"`
+  338	TLFXS *string `xml:"TLFXS,omitempty" json:"TLFXS,omitempty" yaml:"TLFXS,omitempty" doc:"Accounting clerk's fax number at the customer/vendor"`
+  339	PERNR *string `xml:"PERNR,omitempty" json:"PERNR,omitempty" yaml:"PERNR,omitempty" doc:"Personnel Number"`
+  340	INTAD *string `xml:"INTAD,omitempty" json:"INTAD,omitempty" yaml:"INTAD,omitempty" doc:"Internet address of partner company clerk"`
+  341	GUZTE *string `xml:"GUZTE,omitempty" json:"GUZTE,omitempty" yaml:"GUZTE,omitempty" doc:"Payment Terms Key for Credit Memos"`
+  342	GRICD *string `xml:"GRICD,omitempty" json:"GRICD,omitempty" yaml:"GRICD,omitempty" doc:"Activity Code for Gross Income Tax"`
+  343	GRIDT *string `xml:"GRIDT,omitempty" json:"GRIDT,omitempty" yaml:"GRIDT,omitempty" doc:"Distribution Type for Employment Tax"`
+  344	WBRSL *string `xml:"WBRSL,omitempty" json:"WBRSL,omitempty" yaml:"WBRSL,omitempty" doc:"Value Adjustment Key"`
+  345	NODEL *string `xml:"NODEL,omitempty" json:"NODEL,omitempty" yaml:"NODEL,omitempty" doc:"Deletion bock for master record (company code level)"`
+  346	TLFNS *string `xml:"TLFNS,omitempty" json:"TLFNS,omitempty" yaml:"TLFNS,omitempty" doc:"Accounting clerk's telephone number at business partner"`
+  347	CESSION_KZ *string `xml:"CESSION_KZ,omitempty" json:"CESSION_KZ,omitempty" yaml:"CESSION_KZ,omitempty" doc:"Accounts Receivable Pledging Indicator"`
+  348	GMVKZD *string `xml:"GMVKZD,omitempty" json:"GMVKZD,omitempty" yaml:"GMVKZD,omitempty" doc:"Customer is in execution"`
+  349	AVSND *string `xml:"AVSND,omitempty" json:"AVSND,omitempty" yaml:"AVSND,omitempty" doc:"Indicator: Send Payment Advice by XML"`
+  350	SMTP_ADDR *string `xml:"SMTP_ADDR,omitempty" json:"SMTP_ADDR,omitempty" yaml:"SMTP_ADDR,omitempty" doc:"E-mail Address"`
+  351	E1KNBWM []*DEBMASE1KNBWM `xml:"E1KNBWM,omitempty" json:"E1KNBWM,omitempty" yaml:"E1KNBWM,omitempty" doc:""`
+  352	E1KNB5M []*DEBMASE1KNB5M `xml:"E1KNB5M,omitempty" json:"E1KNB5M,omitempty" yaml:"E1KNB5M,omitempty" doc:""`
+  353	E1KNB1H []*DEBMASE1KNB1H `xml:"E1KNB1H,omitempty" json:"E1KNB1H,omitempty" yaml:"E1KNB1H,omitempty" doc:""`
+  354	}
+  355	
+  356	// Master customer master reminder data (KNB5)
+  357	type DEBMASE1KNB5M struct {
+  358	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  359	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  360	MABER *string `xml:"MABER,omitempty" json:"MABER,omitempty" yaml:"MABER,omitempty" doc:"Dunning Area"`
+  361	MAHNA *string `xml:"MAHNA,omitempty" json:"MAHNA,omitempty" yaml:"MAHNA,omitempty" doc:"Dunning Procedure"`
+  362	MANSP *string `xml:"MANSP,omitempty" json:"MANSP,omitempty" yaml:"MANSP,omitempty" doc:"Dunning Block"`
+  363	MADAT *string `xml:"MADAT,omitempty" json:"MADAT,omitempty" yaml:"MADAT,omitempty" doc:"Date of Last Dunning Notice"`
+  364	MAHNS *string `xml:"MAHNS,omitempty" json:"MAHNS,omitempty" yaml:"MAHNS,omitempty" doc:"Dunning Level"`
+  365	KNRMA *string `xml:"KNRMA,omitempty" json:"KNRMA,omitempty" yaml:"KNRMA,omitempty" doc:"Account number of the dunning recipient"`
+  366	GMVDT *string `xml:"GMVDT,omitempty" json:"GMVDT,omitempty" yaml:"GMVDT,omitempty" doc:"Date of the legal dunning proceedings"`
+  367	BUSAB *string `xml:"BUSAB,omitempty" json:"BUSAB,omitempty" yaml:"BUSAB,omitempty" doc:"Dunning clerk"`
+  368	}
+  369	
+  370	// Master customer master bank details and bank master
+  371	type DEBMASE1KNBKM struct {
+  372	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  373	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  374	BANKS *string `xml:"BANKS,omitempty" json:"BANKS,omitempty" yaml:"BANKS,omitempty" doc:"Bank country key"`
+  375	BANKL *string `xml:"BANKL,omitempty" json:"BANKL,omitempty" yaml:"BANKL,omitempty" doc:"Bank number"`
+  376	BANKN *string `xml:"BANKN,omitempty" json:"BANKN,omitempty" yaml:"BANKN,omitempty" doc:"Bank account number"`
+  377	BKONT *string `xml:"BKONT,omitempty" json:"BKONT,omitempty" yaml:"BKONT,omitempty" doc:"Bank Control Key"`
+  378	BVTYP *string `xml:"BVTYP,omitempty" json:"BVTYP,omitempty" yaml:"BVTYP,omitempty" doc:"Partner Bank Type"`
+  379	XEZER *string `xml:"XEZER,omitempty" json:"XEZER,omitempty" yaml:"XEZER,omitempty" doc:"Indicator: Is there collection authorization ?"`
+  380	BKREF *string `xml:"BKREF,omitempty" json:"BKREF,omitempty" yaml:"BKREF,omitempty" doc:"Reference specifications for bank details"`
+  381	BANKA *string `xml:"BANKA,omitempty" json:"BANKA,omitempty" yaml:"BANKA,omitempty" doc:"Name of bank"`
+  382	STRAS *string `xml:"STRAS,omitempty" json:"STRAS,omitempty" yaml:"STRAS,omitempty" doc:"House number and street"`
+  383	ORT01 *string `xml:"ORT01,omitempty" json:"ORT01,omitempty" yaml:"ORT01,omitempty" doc:"City"`
+  384	SWIFT *string `xml:"SWIFT,omitempty" json:"SWIFT,omitempty" yaml:"SWIFT,omitempty" doc:"SWIFT Code for International Payments"`
+  385	BGRUP *string `xml:"BGRUP,omitempty" json:"BGRUP,omitempty" yaml:"BGRUP,omitempty" doc:"Bank group (bank network)"`
+  386	XPGRO *string `xml:"XPGRO,omitempty" json:"XPGRO,omitempty" yaml:"XPGRO,omitempty" doc:"Post Office Bank Current Account"`
+  387	BNKLZ *string `xml:"BNKLZ,omitempty" json:"BNKLZ,omitempty" yaml:"BNKLZ,omitempty" doc:"Bank number"`
+  388	PSKTO *string `xml:"PSKTO,omitempty" json:"PSKTO,omitempty" yaml:"PSKTO,omitempty" doc:"Account Number of Bank Account At Post Office"`
+  389	BRNCH *string `xml:"BRNCH,omitempty" json:"BRNCH,omitempty" yaml:"BRNCH,omitempty" doc:"Bank Branch"`
+  390	PROVZ *string `xml:"PROVZ,omitempty" json:"PROVZ,omitempty" yaml:"PROVZ,omitempty" doc:"Region (State, Province, County)"`
+  391	KOINH *string `xml:"KOINH,omitempty" json:"KOINH,omitempty" yaml:"KOINH,omitempty" doc:"Account Holder Name"`
+  392	KOINH_N *string `xml:"KOINH_N,omitempty" json:"KOINH_N,omitempty" yaml:"KOINH_N,omitempty" doc:"Account Holder Name"`
+  393	KOVON *string `xml:"KOVON,omitempty" json:"KOVON,omitempty" yaml:"KOVON,omitempty" doc:"Date (batch input)"`
+  394	KOBIS *string `xml:"KOBIS,omitempty" json:"KOBIS,omitempty" yaml:"KOBIS,omitempty" doc:"Date (batch input)"`
+  395	IBAN_BANKS *string `xml:"IBAN_BANKS,omitempty" json:"IBAN_BANKS,omitempty" yaml:"IBAN_BANKS,omitempty" doc:"Bank country key"`
+  396	IBAN_BANKL *string `xml:"IBAN_BANKL,omitempty" json:"IBAN_BANKL,omitempty" yaml:"IBAN_BANKL,omitempty" doc:"Bank Keys"`
+  397	IBAN_BIC *string `xml:"IBAN_BIC,omitempty" json:"IBAN_BIC,omitempty" yaml:"IBAN_BIC,omitempty" doc:"SWIFT Code for International Payments"`
+  398	IBAN *string `xml:"IBAN,omitempty" json:"IBAN,omitempty" yaml:"IBAN,omitempty" doc:"IBAN (International Bank Account Number)"`
+  399	}
+  400	
+  401	// Segment for Witholding Tax Categories in the Customer Master
+  402	type DEBMASE1KNBWM struct {
+  403	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  404	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  405	WITHT *string `xml:"WITHT,omitempty" json:"WITHT,omitempty" yaml:"WITHT,omitempty" doc:"Indicator for withholding tax type"`
+  406	WT_WITHCD *string `xml:"WT_WITHCD,omitempty" json:"WT_WITHCD,omitempty" yaml:"WT_WITHCD,omitempty" doc:"Withholding tax code"`
+  407	WT_AGENT *string `xml:"WT_AGENT,omitempty" json:"WT_AGENT,omitempty" yaml:"WT_AGENT,omitempty" doc:"Indicator: Withholding tax agent?"`
+  408	WT_AGTDF *string `xml:"WT_AGTDF,omitempty" json:"WT_AGTDF,omitempty" yaml:"WT_AGTDF,omitempty" doc:"Date (batch input)"`
+  409	WT_AGTDT *string `xml:"WT_AGTDT,omitempty" json:"WT_AGTDT,omitempty" yaml:"WT_AGTDT,omitempty" doc:"Date (batch input)"`
+  410	WT_WTSTCD *string `xml:"WT_WTSTCD,omitempty" json:"WT_WTSTCD,omitempty" yaml:"WT_WTSTCD,omitempty" doc:"Withholding tax identification number"`
+  411	}
+  412	
+  413	// Master customer master export data
+  414	type DEBMASE1KNEXM struct {
+  415	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  416	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  417	LNDEX *string `xml:"LNDEX,omitempty" json:"LNDEX,omitempty" yaml:"LNDEX,omitempty" doc:"Country key for export control in customer master"`
+  418	TDOCO *string `xml:"TDOCO,omitempty" json:"TDOCO,omitempty" yaml:"TDOCO,omitempty" doc:"ID: TDO boycott list for export control"`
+  419	TDODA *string `xml:"TDODA,omitempty" json:"TDODA,omitempty" yaml:"TDODA,omitempty" doc:"Date of last check of TDO list for export control"`
+  420	SDNCO *string `xml:"SDNCO,omitempty" json:"SDNCO,omitempty" yaml:"SDNCO,omitempty" doc:"ID: SDN boycott list for export control"`
+  421	SDNDA *string `xml:"SDNDA,omitempty" json:"SDNDA,omitempty" yaml:"SDNDA,omitempty" doc:"Date of last check of SDN list for export control"`
+  422	DHRCO *string `xml:"DHRCO,omitempty" json:"DHRCO,omitempty" yaml:"DHRCO,omitempty" doc:"ID: Customer boycott list for export control"`
+  423	DHRDA *string `xml:"DHRDA,omitempty" json:"DHRDA,omitempty" yaml:"DHRDA,omitempty" doc:"Date of last check in inter. boycott list for exp. control"`
+  424	}
+  425	
+  426	// Master customer master credit management central data (KNKA)
+  427	type DEBMASE1KNKAM struct {
+  428	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  429	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  430	KLIMG *string `xml:"KLIMG,omitempty" json:"KLIMG,omitempty" yaml:"KLIMG,omitempty" doc:"Field of length 16"`
+  431	KLIME *string `xml:"KLIME,omitempty" json:"KLIME,omitempty" yaml:"KLIME,omitempty" doc:"Field of length 16"`
+  432	WAERS *string `xml:"WAERS,omitempty" json:"WAERS,omitempty" yaml:"WAERS,omitempty" doc:"Currency Key"`
+  433	DLAUS *string `xml:"DLAUS,omitempty" json:"DLAUS,omitempty" yaml:"DLAUS,omitempty" doc:"Date of the last general information"`
+  434	}
+  435	
+  436	// Master customer master credit management: Text, header
+  437	type DEBMASE1KNKKH struct {
+  438	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  439	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  440	TDOBJECT *string `xml:"TDOBJECT,omitempty" json:"TDOBJECT,omitempty" yaml:"TDOBJECT,omitempty" doc:"Texts: Application Object"`
+  441	TDNAME *string `xml:"TDNAME,omitempty" json:"TDNAME,omitempty" yaml:"TDNAME,omitempty" doc:"Name"`
+  442	TDID *string `xml:"TDID,omitempty" json:"TDID,omitempty" yaml:"TDID,omitempty" doc:"Text ID"`
+  443	TDSPRAS *string `xml:"TDSPRAS,omitempty" json:"TDSPRAS,omitempty" yaml:"TDSPRAS,omitempty" doc:"Language Key"`
+  444	TDTEXTTYPE *string `xml:"TDTEXTTYPE,omitempty" json:"TDTEXTTYPE,omitempty" yaml:"TDTEXTTYPE,omitempty" doc:"SAPscript: Format of Text"`
+  445	TDSPRASISO *string `xml:"TDSPRASISO,omitempty" json:"TDSPRASISO,omitempty" yaml:"TDSPRASISO,omitempty" doc:"Language according to ISO 639"`
+  446	E1KNKKL []*DEBMASE1KNKKL `xml:"E1KNKKL,omitempty" json:"E1KNKKL,omitempty" yaml:"E1KNKKL,omitempty" doc:""`
+  447	}
+  448	
+  449	// Master customer master credit management: Text, line
+  450	type DEBMASE1KNKKL struct {
+  451	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  452	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  453	TDFORMAT *string `xml:"TDFORMAT,omitempty" json:"TDFORMAT,omitempty" yaml:"TDFORMAT,omitempty" doc:"Tag column"`
+  454	TDLINE *string `xml:"TDLINE,omitempty" json:"TDLINE,omitempty" yaml:"TDLINE,omitempty" doc:"Text Line"`
+  455	}
+  456	
+  457	// Master customer master credit mgmt control area data (KNKK)
+  458	type DEBMASE1KNKKM struct {
+  459	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  460	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  461	KKBER *string `xml:"KKBER,omitempty" json:"KKBER,omitempty" yaml:"KKBER,omitempty" doc:"Credit Control Area"`
+  462	KLIMK *string `xml:"KLIMK,omitempty" json:"KLIMK,omitempty" yaml:"KLIMK,omitempty" doc:"Field of length 16"`
+  463	KNKLI *string `xml:"KNKLI,omitempty" json:"KNKLI,omitempty" yaml:"KNKLI,omitempty" doc:"Customer's account number with credit limit reference"`
+  464	CTLPC *string `xml:"CTLPC,omitempty" json:"CTLPC,omitempty" yaml:"CTLPC,omitempty" doc:"Credit management: Risk category"`
+  465	DTREV *string `xml:"DTREV,omitempty" json:"DTREV,omitempty" yaml:"DTREV,omitempty" doc:"Last internal review"`
+  466	CRBLB *string `xml:"CRBLB,omitempty" json:"CRBLB,omitempty" yaml:"CRBLB,omitempty" doc:"Indicator: Blocked by credit management ?"`
+  467	SBGRP *string `xml:"SBGRP,omitempty" json:"SBGRP,omitempty" yaml:"SBGRP,omitempty" doc:"Credit representative group for credit management"`
+  468	NXTRV *string `xml:"NXTRV,omitempty" json:"NXTRV,omitempty" yaml:"NXTRV,omitempty" doc:"Next internal review"`
+  469	KRAUS *string `xml:"KRAUS,omitempty" json:"KRAUS,omitempty" yaml:"KRAUS,omitempty" doc:"Credit information number"`
+  470	PAYDB *string `xml:"PAYDB,omitempty" json:"PAYDB,omitempty" yaml:"PAYDB,omitempty" doc:"do not use - replaced by DBPAY_CM"`
+  471	DBRAT *string `xml:"DBRAT,omitempty" json:"DBRAT,omitempty" yaml:"DBRAT,omitempty" doc:"do not use - replaced by DBRTG_CM"`
+  472	REVDB *string `xml:"REVDB,omitempty" json:"REVDB,omitempty" yaml:"REVDB,omitempty" doc:"Last review (external)"`
+  473	GRUPP *string `xml:"GRUPP,omitempty" json:"GRUPP,omitempty" yaml:"GRUPP,omitempty" doc:"Customer Credit Group"`
+  474	SBDAT *string `xml:"SBDAT,omitempty" json:"SBDAT,omitempty" yaml:"SBDAT,omitempty" doc:"Reference Date"`
+  475	KDGRP *string `xml:"KDGRP,omitempty" json:"KDGRP,omitempty" yaml:"KDGRP,omitempty" doc:"Customer Group"`
+  476	DBPAY *string `xml:"DBPAY,omitempty" json:"DBPAY,omitempty" yaml:"DBPAY,omitempty" doc:"Payment Index"`
+  477	DBRTG *string `xml:"DBRTG,omitempty" json:"DBRTG,omitempty" yaml:"DBRTG,omitempty" doc:"Rating"`
+  478	DBEKR *string `xml:"DBEKR,omitempty" json:"DBEKR,omitempty" yaml:"DBEKR,omitempty" doc:"Recommended credit limit"`
+  479	DBWAE *string `xml:"DBWAE,omitempty" json:"DBWAE,omitempty" yaml:"DBWAE,omitempty" doc:"ISO currency code"`
+  480	DBMON *string `xml:"DBMON,omitempty" json:"DBMON,omitempty" yaml:"DBMON,omitempty" doc:"Date Monitoring"`
+  481	E1KNKKH []*DEBMASE1KNKKH `xml:"E1KNKKH,omitempty" json:"E1KNKKH,omitempty" yaml:"E1KNKKH,omitempty" doc:""`
+  482	}
+  483	
+  484	// Master customer master unloading point (KNVA)
+  485	type DEBMASE1KNVAM struct {
+  486	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  487	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  488	ABLAD *string `xml:"ABLAD,omitempty" json:"ABLAD,omitempty" yaml:"ABLAD,omitempty" doc:"Unloading Point"`
+  489	KNFAK *string `xml:"KNFAK,omitempty" json:"KNFAK,omitempty" yaml:"KNFAK,omitempty" doc:"Customer's factory calendar"`
+  490	WANID *string `xml:"WANID,omitempty" json:"WANID,omitempty" yaml:"WANID,omitempty" doc:"Goods receiving hours ID (default value)"`
+  491	MOAB1 *string `xml:"MOAB1,omitempty" json:"MOAB1,omitempty" yaml:"MOAB1,omitempty" doc:"Goods receipt times: Monday morning from ..."`
+  492	MOBI1 *string `xml:"MOBI1,omitempty" json:"MOBI1,omitempty" yaml:"MOBI1,omitempty" doc:"Goods receiving hours: Monday morning until ..."`
+  493	MOAB2 *string `xml:"MOAB2,omitempty" json:"MOAB2,omitempty" yaml:"MOAB2,omitempty" doc:"Goods receiving hours: Monday afternoon from ..."`
+  494	MOBI2 *string `xml:"MOBI2,omitempty" json:"MOBI2,omitempty" yaml:"MOBI2,omitempty" doc:"Goods receiving hours: Monday afternoon until ..."`
+  495	DIAB1 *string `xml:"DIAB1,omitempty" json:"DIAB1,omitempty" yaml:"DIAB1,omitempty" doc:"Goods receiving hours: Tuesday morning from..."`
+  496	DIBI1 *string `xml:"DIBI1,omitempty" json:"DIBI1,omitempty" yaml:"DIBI1,omitempty" doc:"Goods receipt times: Tuesday morning until ..."`
+  497	DIAB2 *string `xml:"DIAB2,omitempty" json:"DIAB2,omitempty" yaml:"DIAB2,omitempty" doc:"Goods receiving hours: Tuesday afternoon from ..."`
+  498	DIBI2 *string `xml:"DIBI2,omitempty" json:"DIBI2,omitempty" yaml:"DIBI2,omitempty" doc:"Goods receiving hours: Tuesday afternoon until ..."`
+  499	MIAB1 *string `xml:"MIAB1,omitempty" json:"MIAB1,omitempty" yaml:"MIAB1,omitempty" doc:"Goods receiving hours: Wednesday morning from ..."`
+  500	MIBI1 *string `xml:"MIBI1,omitempty" json:"MIBI1,omitempty" yaml:"MIBI1,omitempty" doc:"Goods receiving hours: Wednesday morning until ..."`
+  501	MIAB2 *string `xml:"MIAB2,omitempty" json:"MIAB2,omitempty" yaml:"MIAB2,omitempty" doc:"Goods receiving hours: Wednesday afternoon from ..."`
+  502	MIBI2 *string `xml:"MIBI2,omitempty" json:"MIBI2,omitempty" yaml:"MIBI2,omitempty" doc:"Goods receiving hours: Wednesday afternoon until ..."`
+  503	DOAB1 *string `xml:"DOAB1,omitempty" json:"DOAB1,omitempty" yaml:"DOAB1,omitempty" doc:"Goods receiving hours: Thursday morning from ..."`
+  504	DOBI1 *string `xml:"DOBI1,omitempty" json:"DOBI1,omitempty" yaml:"DOBI1,omitempty" doc:"Goods receiving hours: Thursday morning until ..."`
+  505	DOAB2 *string `xml:"DOAB2,omitempty" json:"DOAB2,omitempty" yaml:"DOAB2,omitempty" doc:"Goods receiving hours: Thursday afternoon from ..."`
+  506	DOBI2 *string `xml:"DOBI2,omitempty" json:"DOBI2,omitempty" yaml:"DOBI2,omitempty" doc:"Goods receiving hours: Thursday afternoon until..."`
+  507	FRAB1 *string `xml:"FRAB1,omitempty" json:"FRAB1,omitempty" yaml:"FRAB1,omitempty" doc:"Goods receiving hours: Friday morning from ..."`
+  508	FRBI1 *string `xml:"FRBI1,omitempty" json:"FRBI1,omitempty" yaml:"FRBI1,omitempty" doc:"Goods receiving hours: Friday morning until ..."`
+  509	FRAB2 *string `xml:"FRAB2,omitempty" json:"FRAB2,omitempty" yaml:"FRAB2,omitempty" doc:"Goods receiving hours: Friday afternoon from ..."`
+  510	FRBI2 *string `xml:"FRBI2,omitempty" json:"FRBI2,omitempty" yaml:"FRBI2,omitempty" doc:"Goods receiving hours: Friday afternoon until ..."`
+  511	SAAB1 *string `xml:"SAAB1,omitempty" json:"SAAB1,omitempty" yaml:"SAAB1,omitempty" doc:"Goods receiving hours: Saturday morning from ..."`
+  512	SABI1 *string `xml:"SABI1,omitempty" json:"SABI1,omitempty" yaml:"SABI1,omitempty" doc:"Goods receiving hours: Saturday morning from ..."`
+  513	SAAB2 *string `xml:"SAAB2,omitempty" json:"SAAB2,omitempty" yaml:"SAAB2,omitempty" doc:"Goods receiving hours: Saturday afternoon from ..."`
+  514	SABI2 *string `xml:"SABI2,omitempty" json:"SABI2,omitempty" yaml:"SABI2,omitempty" doc:"Goods receiving hours: Saturday afternoon until ..."`
+  515	SOAB1 *string `xml:"SOAB1,omitempty" json:"SOAB1,omitempty" yaml:"SOAB1,omitempty" doc:"Goods receiving hours: Sunday morning from ..."`
+  516	SOBI1 *string `xml:"SOBI1,omitempty" json:"SOBI1,omitempty" yaml:"SOBI1,omitempty" doc:"Goods receiving hours: Sunday morning until ..."`
+  517	SOAB2 *string `xml:"SOAB2,omitempty" json:"SOAB2,omitempty" yaml:"SOAB2,omitempty" doc:"Goods receiving hours: Sunday afternoon from ..."`
+  518	SOBI2 *string `xml:"SOBI2,omitempty" json:"SOBI2,omitempty" yaml:"SOBI2,omitempty" doc:"Goods receiving hours: Sunday afternoon until ..."`
+  519	DEFAB *string `xml:"DEFAB,omitempty" json:"DEFAB,omitempty" yaml:"DEFAB,omitempty" doc:"Default unloading point"`
+  520	}
+  521	
+  522	// Master customer master document request (KNVD)
+  523	type DEBMASE1KNVDM struct {
+  524	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  525	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  526	DOCTP *string `xml:"DOCTP,omitempty" json:"DOCTP,omitempty" yaml:"DOCTP,omitempty" doc:"Output Type"`
+  527	SPRAS *string `xml:"SPRAS,omitempty" json:"SPRAS,omitempty" yaml:"SPRAS,omitempty" doc:"Message language"`
+  528	DOANZ *string `xml:"DOANZ,omitempty" json:"DOANZ,omitempty" yaml:"DOANZ,omitempty" doc:"3-Byte field"`
+  529	DOVER *string `xml:"DOVER,omitempty" json:"DOVER,omitempty" yaml:"DOVER,omitempty" doc:"Dispatch time"`
+  530	NACHA *string `xml:"NACHA,omitempty" json:"NACHA,omitempty" yaml:"NACHA,omitempty" doc:"Message transmission medium"`
+  531	SPRAS_ISO *string `xml:"SPRAS_ISO,omitempty" json:"SPRAS_ISO,omitempty" yaml:"SPRAS_ISO,omitempty" doc:"Language according to ISO 639"`
+  532	}
+  533	
+  534	// Master customer master tax indicators (KNVI)
+  535	type DEBMASE1KNVIM struct {
+  536	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  537	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  538	ALAND *string `xml:"ALAND,omitempty" json:"ALAND,omitempty" yaml:"ALAND,omitempty" doc:"Departure country (country from which the goods are sent)"`
+  539	TATYP *string `xml:"TATYP,omitempty" json:"TATYP,omitempty" yaml:"TATYP,omitempty" doc:"Tax category (sales tax, federal sales tax,...)"`
+  540	TAXKD *string `xml:"TAXKD,omitempty" json:"TAXKD,omitempty" yaml:"TAXKD,omitempty" doc:"Tax classification for customer"`
+  541	}
+  542	
+  543	// Master customer master contact person: Texts, header
+  544	type DEBMASE1KNVKH struct {
+  545	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  546	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  547	TDOBJECT *string `xml:"TDOBJECT,omitempty" json:"TDOBJECT,omitempty" yaml:"TDOBJECT,omitempty" doc:"Texts: Application Object"`
+  548	TDNAME *string `xml:"TDNAME,omitempty" json:"TDNAME,omitempty" yaml:"TDNAME,omitempty" doc:"Name"`
+  549	TDID *string `xml:"TDID,omitempty" json:"TDID,omitempty" yaml:"TDID,omitempty" doc:"Text ID"`
+  550	TDSPRAS *string `xml:"TDSPRAS,omitempty" json:"TDSPRAS,omitempty" yaml:"TDSPRAS,omitempty" doc:"Language Key"`
+  551	TDTEXTTYPE *string `xml:"TDTEXTTYPE,omitempty" json:"TDTEXTTYPE,omitempty" yaml:"TDTEXTTYPE,omitempty" doc:"SAPscript: Format of Text"`
+  552	TDSPRASISO *string `xml:"TDSPRASISO,omitempty" json:"TDSPRASISO,omitempty" yaml:"TDSPRASISO,omitempty" doc:"Language according to ISO 639"`
+  553	E1KNVKL []*DEBMASE1KNVKL `xml:"E1KNVKL,omitempty" json:"E1KNVKL,omitempty" yaml:"E1KNVKL,omitempty" doc:""`
+  554	}
+  555	
+  556	// Master customer master contact person: text line
+  557	type DEBMASE1KNVKL struct {
+  558	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  559	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  560	TDFORMAT *string `xml:"TDFORMAT,omitempty" json:"TDFORMAT,omitempty" yaml:"TDFORMAT,omitempty" doc:"Tag column"`
+  561	TDLINE *string `xml:"TDLINE,omitempty" json:"TDLINE,omitempty" yaml:"TDLINE,omitempty" doc:"Text Line"`
+  562	}
+  563	
+  564	// Master customer master contact person (KNVK)
+  565	type DEBMASE1KNVKM struct {
+  566	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  567	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  568	PARNR *string `xml:"PARNR,omitempty" json:"PARNR,omitempty" yaml:"PARNR,omitempty" doc:"Number of contact person"`
+  569	NAMEV *string `xml:"NAMEV,omitempty" json:"NAMEV,omitempty" yaml:"NAMEV,omitempty" doc:"First name"`
+  570	NAME1 *string `xml:"NAME1,omitempty" json:"NAME1,omitempty" yaml:"NAME1,omitempty" doc:"Name 1"`
+  571	ABTPA *string `xml:"ABTPA,omitempty" json:"ABTPA,omitempty" yaml:"ABTPA,omitempty" doc:"Contact person's department at customer"`
+  572	ABTNR *string `xml:"ABTNR,omitempty" json:"ABTNR,omitempty" yaml:"ABTNR,omitempty" doc:"Contact person department"`
+  573	UEPAR *string `xml:"UEPAR,omitempty" json:"UEPAR,omitempty" yaml:"UEPAR,omitempty" doc:"Higher-level partner"`
+  574	TELF1 *string `xml:"TELF1,omitempty" json:"TELF1,omitempty" yaml:"TELF1,omitempty" doc:"First telephone number"`
+  575	ANRED *string `xml:"ANRED,omitempty" json:"ANRED,omitempty" yaml:"ANRED,omitempty" doc:"Form of address for contact person (Mr, Mrs...etc)"`
+  576	PAFKT *string `xml:"PAFKT,omitempty" json:"PAFKT,omitempty" yaml:"PAFKT,omitempty" doc:"Contact person function"`
+  577	PARVO *string `xml:"PARVO,omitempty" json:"PARVO,omitempty" yaml:"PARVO,omitempty" doc:"Partner's Authority"`
+  578	PAVIP *string `xml:"PAVIP,omitempty" json:"PAVIP,omitempty" yaml:"PAVIP,omitempty" doc:"VIP Partner"`
+  579	PARGE *string `xml:"PARGE,omitempty" json:"PARGE,omitempty" yaml:"PARGE,omitempty" doc:"Partner's gender"`
+  580	PARLA *string `xml:"PARLA,omitempty" json:"PARLA,omitempty" yaml:"PARLA,omitempty" doc:"Partner language"`
+  581	GBDAT *string `xml:"GBDAT,omitempty" json:"GBDAT,omitempty" yaml:"GBDAT,omitempty" doc:"Date of Birth"`
+  582	VRTNR *string `xml:"VRTNR,omitempty" json:"VRTNR,omitempty" yaml:"VRTNR,omitempty" doc:"Representative number"`
+  583	BRYTH *string `xml:"BRYTH,omitempty" json:"BRYTH,omitempty" yaml:"BRYTH,omitempty" doc:"Call frequency"`
+  584	AKVER *string `xml:"AKVER,omitempty" json:"AKVER,omitempty" yaml:"AKVER,omitempty" doc:"Buying habits"`
+  585	NMAIL *string `xml:"NMAIL,omitempty" json:"NMAIL,omitempty" yaml:"NMAIL,omitempty" doc:"Advertising material indicator"`
+  586	PARAU *string `xml:"PARAU,omitempty" json:"PARAU,omitempty" yaml:"PARAU,omitempty" doc:"Notes about contact person"`
+  587	PARH1 *string `xml:"PARH1,omitempty" json:"PARH1,omitempty" yaml:"PARH1,omitempty" doc:"Field of Interest 1"`
+  588	PARH2 *string `xml:"PARH2,omitempty" json:"PARH2,omitempty" yaml:"PARH2,omitempty" doc:"Field of Interest 2"`
+  589	PARH3 *string `xml:"PARH3,omitempty" json:"PARH3,omitempty" yaml:"PARH3,omitempty" doc:"Field of Interest 3"`
+  590	PARH4 *string `xml:"PARH4,omitempty" json:"PARH4,omitempty" yaml:"PARH4,omitempty" doc:"Field of Interest 4"`
+  591	PARH5 *string `xml:"PARH5,omitempty" json:"PARH5,omitempty" yaml:"PARH5,omitempty" doc:"Field of Interest 5"`
+  592	MOAB1 *string `xml:"MOAB1,omitempty" json:"MOAB1,omitempty" yaml:"MOAB1,omitempty" doc:"Contact person's visiting hours: Monday morning from ..."`
+  593	MOBI1 *string `xml:"MOBI1,omitempty" json:"MOBI1,omitempty" yaml:"MOBI1,omitempty" doc:"Contact person's visiting hours: Monday morning until ..."`
+  594	MOAB2 *string `xml:"MOAB2,omitempty" json:"MOAB2,omitempty" yaml:"MOAB2,omitempty" doc:"Contact person's visiting hours: Monday afternoon from ..."`
+  595	MOBI2 *string `xml:"MOBI2,omitempty" json:"MOBI2,omitempty" yaml:"MOBI2,omitempty" doc:"Contact person's visiting hours: Monday afternoon until ..."`
+  596	DIAB1 *string `xml:"DIAB1,omitempty" json:"DIAB1,omitempty" yaml:"DIAB1,omitempty" doc:"Contact person's visiting hours: Tuesday morning from..."`
+  597	DIBI1 *string `xml:"DIBI1,omitempty" json:"DIBI1,omitempty" yaml:"DIBI1,omitempty" doc:"Contact person's visiting hours: Tuesday morning until ..."`
+  598	DIAB2 *string `xml:"DIAB2,omitempty" json:"DIAB2,omitempty" yaml:"DIAB2,omitempty" doc:"Contact person's visiting hours: Tuesday afternoon from.."`
+  599	DIBI2 *string `xml:"DIBI2,omitempty" json:"DIBI2,omitempty" yaml:"DIBI2,omitempty" doc:"Contact person's visiting hours: Tuesday afternoon until ..."`
+  600	MIAB1 *string `xml:"MIAB1,omitempty" json:"MIAB1,omitempty" yaml:"MIAB1,omitempty" doc:"Contact person's visiting hours: Wednesday morning from..."`
+  601	MIBI1 *string `xml:"MIBI1,omitempty" json:"MIBI1,omitempty" yaml:"MIBI1,omitempty" doc:"Contact person's visiting hours: Wednesday morning until ..."`
+  602	MIAB2 *string `xml:"MIAB2,omitempty" json:"MIAB2,omitempty" yaml:"MIAB2,omitempty" doc:"Contact person's visiting hours: Wednesday afternoon from .."`
+  603	MIBI2 *string `xml:"MIBI2,omitempty" json:"MIBI2,omitempty" yaml:"MIBI2,omitempty" doc:"Contact person's visiting hours: Wednesday afternoon until.."`
+  604	DOAB1 *string `xml:"DOAB1,omitempty" json:"DOAB1,omitempty" yaml:"DOAB1,omitempty" doc:"Contact person's visiting hours: Thursday morning from ...."`
+  605	DOBI1 *string `xml:"DOBI1,omitempty" json:"DOBI1,omitempty" yaml:"DOBI1,omitempty" doc:"Contact person's visiting hours: Thursday morning until ...."`
+  606	DOAB2 *string `xml:"DOAB2,omitempty" json:"DOAB2,omitempty" yaml:"DOAB2,omitempty" doc:"Contact person's visiting hours: Thursday afternoon from..."`
+  607	DOBI2 *string `xml:"DOBI2,omitempty" json:"DOBI2,omitempty" yaml:"DOBI2,omitempty" doc:"Contact person's visiting hours: Thursday afternoon until .."`
+  608	FRAB1 *string `xml:"FRAB1,omitempty" json:"FRAB1,omitempty" yaml:"FRAB1,omitempty" doc:"Contact person's visiting hours: Friday morning from ..."`
+  609	FRBI1 *string `xml:"FRBI1,omitempty" json:"FRBI1,omitempty" yaml:"FRBI1,omitempty" doc:"Contact person's visiting hours: Friday morning until ..."`
+  610	FRAB2 *string `xml:"FRAB2,omitempty" json:"FRAB2,omitempty" yaml:"FRAB2,omitempty" doc:"Contact person's visiting hours: Friday afternoon from ..."`
+  611	FRBI2 *string `xml:"FRBI2,omitempty" json:"FRBI2,omitempty" yaml:"FRBI2,omitempty" doc:"Contact person's visiting hours: Friday afternoon until ..."`
+  612	SAAB1 *string `xml:"SAAB1,omitempty" json:"SAAB1,omitempty" yaml:"SAAB1,omitempty" doc:"Contact person's visiting hours: Saturday morning from ..."`
+  613	SABI1 *string `xml:"SABI1,omitempty" json:"SABI1,omitempty" yaml:"SABI1,omitempty" doc:"Contact person's visiting hours: Saturday morning until ..."`
+  614	SAAB2 *string `xml:"SAAB2,omitempty" json:"SAAB2,omitempty" yaml:"SAAB2,omitempty" doc:"Contact person's visiting hours: Saturday afternoon from ..."`
+  615	SABI2 *string `xml:"SABI2,omitempty" json:"SABI2,omitempty" yaml:"SABI2,omitempty" doc:"Contact person's visiting hours: Saturday afternoon until .."`
+  616	SOAB1 *string `xml:"SOAB1,omitempty" json:"SOAB1,omitempty" yaml:"SOAB1,omitempty" doc:"Contact person's visiting hours: Sunday morning from ..."`
+  617	SOBI1 *string `xml:"SOBI1,omitempty" json:"SOBI1,omitempty" yaml:"SOBI1,omitempty" doc:"Contact person's visiting hours: Sunday morning until ..."`
+  618	SOAB2 *string `xml:"SOAB2,omitempty" json:"SOAB2,omitempty" yaml:"SOAB2,omitempty" doc:"Contact person's visiting hours: Sunday afternoon from ..."`
+  619	SOBI2 *string `xml:"SOBI2,omitempty" json:"SOBI2,omitempty" yaml:"SOBI2,omitempty" doc:"Contact person's visiting hours: Sunday afternoon until ..."`
+  620	PAKN1 *string `xml:"PAKN1,omitempty" json:"PAKN1,omitempty" yaml:"PAKN1,omitempty" doc:"Field of Interest 6"`
+  621	PAKN2 *string `xml:"PAKN2,omitempty" json:"PAKN2,omitempty" yaml:"PAKN2,omitempty" doc:"Field of Interest 7"`
+  622	PAKN3 *string `xml:"PAKN3,omitempty" json:"PAKN3,omitempty" yaml:"PAKN3,omitempty" doc:"Field of Interest 8"`
+  623	PAKN4 *string `xml:"PAKN4,omitempty" json:"PAKN4,omitempty" yaml:"PAKN4,omitempty" doc:"Contact person: Attribute 9"`
+  624	PAKN5 *string `xml:"PAKN5,omitempty" json:"PAKN5,omitempty" yaml:"PAKN5,omitempty" doc:"Contact person: Attribute 10"`
+  625	SORTL *string `xml:"SORTL,omitempty" json:"SORTL,omitempty" yaml:"SORTL,omitempty" doc:"Sort field"`
+  626	FAMST *string `xml:"FAMST,omitempty" json:"FAMST,omitempty" yaml:"FAMST,omitempty" doc:"Marital Status Key"`
+  627	SPNAM *string `xml:"SPNAM,omitempty" json:"SPNAM,omitempty" yaml:"SPNAM,omitempty" doc:"Nickname"`
+  628	TITEL_AP *string `xml:"TITEL_AP,omitempty" json:"TITEL_AP,omitempty" yaml:"TITEL_AP,omitempty" doc:"Title of contact person (description of function)"`
+  629	PARLA_ISO *string `xml:"PARLA_ISO,omitempty" json:"PARLA_ISO,omitempty" yaml:"PARLA_ISO,omitempty" doc:"Language according to ISO 639"`
+  630	E1KNVKH []*DEBMASE1KNVKH `xml:"E1KNVKH,omitempty" json:"E1KNVKH,omitempty" yaml:"E1KNVKH,omitempty" doc:""`
+  631	}
+  632	
+  633	// Master customer master licenses (KNVL)
+  634	type DEBMASE1KNVLM struct {
+  635	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  636	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  637	ALAND *string `xml:"ALAND,omitempty" json:"ALAND,omitempty" yaml:"ALAND,omitempty" doc:"Departure country (country from which the goods are sent)"`
+  638	TATYP *string `xml:"TATYP,omitempty" json:"TATYP,omitempty" yaml:"TATYP,omitempty" doc:"Tax category (sales tax, federal sales tax,...)"`
+  639	LICNR *string `xml:"LICNR,omitempty" json:"LICNR,omitempty" yaml:"LICNR,omitempty" doc:"License number"`
+  640	DATAB *string `xml:"DATAB,omitempty" json:"DATAB,omitempty" yaml:"DATAB,omitempty" doc:"Valid-From Date"`
+  641	DATBI *string `xml:"DATBI,omitempty" json:"DATBI,omitempty" yaml:"DATBI,omitempty" doc:"Valid To Date"`
+  642	BELIC *string `xml:"BELIC,omitempty" json:"BELIC,omitempty" yaml:"BELIC,omitempty" doc:"Confirmation for licenses"`
+  643	}
+  644	
+  645	// Master customer master partner roles (KNVP)
+  646	type DEBMASE1KNVPM struct {
+  647	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  648	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  649	PARVW *string `xml:"PARVW,omitempty" json:"PARVW,omitempty" yaml:"PARVW,omitempty" doc:"Partner Function"`
+  650	KUNN2 *string `xml:"KUNN2,omitempty" json:"KUNN2,omitempty" yaml:"KUNN2,omitempty" doc:"Customer number of business partner"`
+  651	DEFPA *string `xml:"DEFPA,omitempty" json:"DEFPA,omitempty" yaml:"DEFPA,omitempty" doc:"Default Partner"`
+  652	KNREF *string `xml:"KNREF,omitempty" json:"KNREF,omitempty" yaml:"KNREF,omitempty" doc:"Customer description of partner (plant, storage location)"`
+  653	PARZA *string `xml:"PARZA,omitempty" json:"PARZA,omitempty" yaml:"PARZA,omitempty" doc:"Partner counter"`
+  654	}
+  655	
+  656	// Master customer master sales data: Texts, header
+  657	type DEBMASE1KNVVH struct {
+  658	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  659	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  660	TDOBJECT *string `xml:"TDOBJECT,omitempty" json:"TDOBJECT,omitempty" yaml:"TDOBJECT,omitempty" doc:"Texts: Application Object"`
+  661	TDNAME *string `xml:"TDNAME,omitempty" json:"TDNAME,omitempty" yaml:"TDNAME,omitempty" doc:"Name"`
+  662	TDID *string `xml:"TDID,omitempty" json:"TDID,omitempty" yaml:"TDID,omitempty" doc:"Text ID"`
+  663	TDSPRAS *string `xml:"TDSPRAS,omitempty" json:"TDSPRAS,omitempty" yaml:"TDSPRAS,omitempty" doc:"Language Key"`
+  664	TDTEXTTYPE *string `xml:"TDTEXTTYPE,omitempty" json:"TDTEXTTYPE,omitempty" yaml:"TDTEXTTYPE,omitempty" doc:"SAPscript: Format of Text"`
+  665	TDSPRASISO *string `xml:"TDSPRASISO,omitempty" json:"TDSPRASISO,omitempty" yaml:"TDSPRASISO,omitempty" doc:"Language according to ISO 639"`
+  666	E1KNVVL []*DEBMASE1KNVVL `xml:"E1KNVVL,omitempty" json:"E1KNVVL,omitempty" yaml:"E1KNVVL,omitempty" doc:""`
+  667	}
+  668	
+  669	// Master customer master sales data: text line
+  670	type DEBMASE1KNVVL struct {
+  671	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  672	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  673	TDFORMAT *string `xml:"TDFORMAT,omitempty" json:"TDFORMAT,omitempty" yaml:"TDFORMAT,omitempty" doc:"Tag column"`
+  674	TDLINE *string `xml:"TDLINE,omitempty" json:"TDLINE,omitempty" yaml:"TDLINE,omitempty" doc:"Text Line"`
+  675	}
+  676	
+  677	// Master customer master sales data (KNVV)
+  678	type DEBMASE1KNVVM struct {
+  679	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  680	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  681	VKORG *string `xml:"VKORG,omitempty" json:"VKORG,omitempty" yaml:"VKORG,omitempty" doc:"Sales Organization"`
+  682	VTWEG *string `xml:"VTWEG,omitempty" json:"VTWEG,omitempty" yaml:"VTWEG,omitempty" doc:"Distribution Channel"`
+  683	SPART *string `xml:"SPART,omitempty" json:"SPART,omitempty" yaml:"SPART,omitempty" doc:"Division"`
+  684	BEGRU *string `xml:"BEGRU,omitempty" json:"BEGRU,omitempty" yaml:"BEGRU,omitempty" doc:"Authorization Group"`
+  685	LOEVM *string `xml:"LOEVM,omitempty" json:"LOEVM,omitempty" yaml:"LOEVM,omitempty" doc:"Deletion flag for customer (sales level)"`
+  686	VERSG *string `xml:"VERSG,omitempty" json:"VERSG,omitempty" yaml:"VERSG,omitempty" doc:"Customer Statistics Group"`
+  687	AUFSD *string `xml:"AUFSD,omitempty" json:"AUFSD,omitempty" yaml:"AUFSD,omitempty" doc:"Customer order block (sales area)"`
+  688	KALKS *string `xml:"KALKS,omitempty" json:"KALKS,omitempty" yaml:"KALKS,omitempty" doc:"Pricing procedure assigned to this customer"`
+  689	KDGRP *string `xml:"KDGRP,omitempty" json:"KDGRP,omitempty" yaml:"KDGRP,omitempty" doc:"Customer group"`
+  690	BZIRK *string `xml:"BZIRK,omitempty" json:"BZIRK,omitempty" yaml:"BZIRK,omitempty" doc:"Sales district"`
+  691	KONDA *string `xml:"KONDA,omitempty" json:"KONDA,omitempty" yaml:"KONDA,omitempty" doc:"Price group (customer)"`
+  692	PLTYP *string `xml:"PLTYP,omitempty" json:"PLTYP,omitempty" yaml:"PLTYP,omitempty" doc:"Price list type"`
+  693	AWAHR *string `xml:"AWAHR,omitempty" json:"AWAHR,omitempty" yaml:"AWAHR,omitempty" doc:"Order probability of the item"`
+  694	INCO1 *string `xml:"INCO1,omitempty" json:"INCO1,omitempty" yaml:"INCO1,omitempty" doc:"Incoterms (Part 1)"`
+  695	INCO2 *string `xml:"INCO2,omitempty" json:"INCO2,omitempty" yaml:"INCO2,omitempty" doc:"Incoterms (Part 2)"`
+  696	LIFSD *string `xml:"LIFSD,omitempty" json:"LIFSD,omitempty" yaml:"LIFSD,omitempty" doc:"Customer delivery block (sales area)"`
+  697	AUTLF *string `xml:"AUTLF,omitempty" json:"AUTLF,omitempty" yaml:"AUTLF,omitempty" doc:"Complete delivery defined for each sales order?"`
+  698	ANTLF *string `xml:"ANTLF,omitempty" json:"ANTLF,omitempty" yaml:"ANTLF,omitempty" doc:"Maximum Number of Partial Deliveries Allowed Per Item"`
+  699	KZTLF *string `xml:"KZTLF,omitempty" json:"KZTLF,omitempty" yaml:"KZTLF,omitempty" doc:"Partial delivery at item level"`
+  700	KZAZU *string `xml:"KZAZU,omitempty" json:"KZAZU,omitempty" yaml:"KZAZU,omitempty" doc:"Order Combination Indicator"`
+  701	CHSPL *string `xml:"CHSPL,omitempty" json:"CHSPL,omitempty" yaml:"CHSPL,omitempty" doc:"Batch split allowed"`
+  702	LPRIO *string `xml:"LPRIO,omitempty" json:"LPRIO,omitempty" yaml:"LPRIO,omitempty" doc:"Delivery Priority"`
+  703	EIKTO *string `xml:"EIKTO,omitempty" json:"EIKTO,omitempty" yaml:"EIKTO,omitempty" doc:"Shipper's (Our) Account Number at the Customer or Vendor"`
+  704	VSBED *string `xml:"VSBED,omitempty" json:"VSBED,omitempty" yaml:"VSBED,omitempty" doc:"Shipping Conditions"`
+  705	FAKSD *string `xml:"FAKSD,omitempty" json:"FAKSD,omitempty" yaml:"FAKSD,omitempty" doc:"Billing block for customer (sales and distribution)"`
+  706	MRNKZ *string `xml:"MRNKZ,omitempty" json:"MRNKZ,omitempty" yaml:"MRNKZ,omitempty" doc:"Manual invoice maintenance"`
+  707	PERFK *string `xml:"PERFK,omitempty" json:"PERFK,omitempty" yaml:"PERFK,omitempty" doc:"Invoice dates (calendar identification)"`
+  708	PERRL *string `xml:"PERRL,omitempty" json:"PERRL,omitempty" yaml:"PERRL,omitempty" doc:"Invoice list schedule (calendar identification)"`
+  709	WAERS *string `xml:"WAERS,omitempty" json:"WAERS,omitempty" yaml:"WAERS,omitempty" doc:"Currency"`
+  710	KTGRD *string `xml:"KTGRD,omitempty" json:"KTGRD,omitempty" yaml:"KTGRD,omitempty" doc:"Account assignment group for this customer"`
+  711	ZTERM *string `xml:"ZTERM,omitempty" json:"ZTERM,omitempty" yaml:"ZTERM,omitempty" doc:"Terms of Payment Key"`
+  712	VWERK *string `xml:"VWERK,omitempty" json:"VWERK,omitempty" yaml:"VWERK,omitempty" doc:"Delivering Plant"`
+  713	VKGRP *string `xml:"VKGRP,omitempty" json:"VKGRP,omitempty" yaml:"VKGRP,omitempty" doc:"Sales Group"`
+  714	VKBUR *string `xml:"VKBUR,omitempty" json:"VKBUR,omitempty" yaml:"VKBUR,omitempty" doc:"Sales Office"`
+  715	VSORT *string `xml:"VSORT,omitempty" json:"VSORT,omitempty" yaml:"VSORT,omitempty" doc:"Item proposal"`
+  716	KVGR1 *string `xml:"KVGR1,omitempty" json:"KVGR1,omitempty" yaml:"KVGR1,omitempty" doc:"Service Flatrate"`
+  717	KVGR2 *string `xml:"KVGR2,omitempty" json:"KVGR2,omitempty" yaml:"KVGR2,omitempty" doc:"Customer Category"`
+  718	KVGR3 *string `xml:"KVGR3,omitempty" json:"KVGR3,omitempty" yaml:"KVGR3,omitempty" doc:"Customer group 3"`
+  719	KVGR4 *string `xml:"KVGR4,omitempty" json:"KVGR4,omitempty" yaml:"KVGR4,omitempty" doc:"Customer group 4"`
+  720	KVGR5 *string `xml:"KVGR5,omitempty" json:"KVGR5,omitempty" yaml:"KVGR5,omitempty" doc:"Customer group 5"`
+  721	BOKRE *string `xml:"BOKRE,omitempty" json:"BOKRE,omitempty" yaml:"BOKRE,omitempty" doc:"Indicator: Customer Is Rebate-Relevant"`
+  722	KURST *string `xml:"KURST,omitempty" json:"KURST,omitempty" yaml:"KURST,omitempty" doc:"Exchange Rate Type"`
+  723	PRFRE *string `xml:"PRFRE,omitempty" json:"PRFRE,omitempty" yaml:"PRFRE,omitempty" doc:"Relevant for price determination ID"`
+  724	KLABC *string `xml:"KLABC,omitempty" json:"KLABC,omitempty" yaml:"KLABC,omitempty" doc:"Customer classification (ABC analysis)"`
+  725	KABSS *string `xml:"KABSS,omitempty" json:"KABSS,omitempty" yaml:"KABSS,omitempty" doc:"Customer payment guarantee procedure"`
+  726	KKBER *string `xml:"KKBER,omitempty" json:"KKBER,omitempty" yaml:"KKBER,omitempty" doc:"Credit Control Area"`
+  727	CASSD *string `xml:"CASSD,omitempty" json:"CASSD,omitempty" yaml:"CASSD,omitempty" doc:"Sales block for customer (sales area)"`
+  728	RDOFF *string `xml:"RDOFF,omitempty" json:"RDOFF,omitempty" yaml:"RDOFF,omitempty" doc:"Switch off rounding?"`
+  729	AGREL *string `xml:"AGREL,omitempty" json:"AGREL,omitempty" yaml:"AGREL,omitempty" doc:"Indicator: Relevant for agency business"`
+  730	MEGRU *string `xml:"MEGRU,omitempty" json:"MEGRU,omitempty" yaml:"MEGRU,omitempty" doc:"Unit of Measure Group"`
+  731	UEBTO *string `xml:"UEBTO,omitempty" json:"UEBTO,omitempty" yaml:"UEBTO,omitempty" doc:"Overdelivery tolerance limit (BTCI)"`
+  732	UNTTO *string `xml:"UNTTO,omitempty" json:"UNTTO,omitempty" yaml:"UNTTO,omitempty" doc:"Underdelivery tolerance (BTCI)"`
+  733	UEBTK *string `xml:"UEBTK,omitempty" json:"UEBTK,omitempty" yaml:"UEBTK,omitempty" doc:"Unlimited overdelivery allowed"`
+  734	PVKSM *string `xml:"PVKSM,omitempty" json:"PVKSM,omitempty" yaml:"PVKSM,omitempty" doc:"Customer procedure for product proposal"`
+  735	PODKZ *string `xml:"PODKZ,omitempty" json:"PODKZ,omitempty" yaml:"PODKZ,omitempty" doc:"Relevant for POD processing"`
+  736	PODTG *string `xml:"PODTG,omitempty" json:"PODTG,omitempty" yaml:"PODTG,omitempty" doc:"Timeframe for Confirmation of POD (BI)"`
+  737	BLIND *string `xml:"BLIND,omitempty" json:"BLIND,omitempty" yaml:"BLIND,omitempty" doc:"Indicator: Doc. index compilation active for purchase orders"`
+  738	CARRIER_NOTIF *string `xml:"CARRIER_NOTIF,omitempty" json:"CARRIER_NOTIF,omitempty" yaml:"CARRIER_NOTIF,omitempty" doc:"Carrier is to be notified"`
+  739	E1KNVPM []*DEBMASE1KNVPM `xml:"E1KNVPM,omitempty" json:"E1KNVPM,omitempty" yaml:"E1KNVPM,omitempty" doc:""`
+  740	E1KNVDM []*DEBMASE1KNVDM `xml:"E1KNVDM,omitempty" json:"E1KNVDM,omitempty" yaml:"E1KNVDM,omitempty" doc:""`
+  741	E1KNVIM []*DEBMASE1KNVIM `xml:"E1KNVIM,omitempty" json:"E1KNVIM,omitempty" yaml:"E1KNVIM,omitempty" doc:""`
+  742	E1KNVLM []*DEBMASE1KNVLM `xml:"E1KNVLM,omitempty" json:"E1KNVLM,omitempty" yaml:"E1KNVLM,omitempty" doc:""`
+  743	E1KNVVH []*DEBMASE1KNVVH `xml:"E1KNVVH,omitempty" json:"E1KNVVH,omitempty" yaml:"E1KNVVH,omitempty" doc:""`
+  744	}
+  745	
+  746	// Segment for value-only material determination
+  747	type DEBMASE1T023W struct {
+  748	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  749	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  750	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  751	MATKL *string `xml:"MATKL,omitempty" json:"MATKL,omitempty" yaml:"MATKL,omitempty" doc:"Material Group"`
+  752	WWGPA *string `xml:"WWGPA,omitempty" json:"WWGPA,omitempty" yaml:"WWGPA,omitempty" doc:"Material group material"`
+  753	KEDET *string `xml:"KEDET,omitempty" json:"KEDET,omitempty" yaml:"KEDET,omitempty" doc:"Indicates exceptions to type of Inventory Management"`
+  754	WWGPA_EXTERNAL *string `xml:"WWGPA_EXTERNAL,omitempty" json:"WWGPA_EXTERNAL,omitempty" yaml:"WWGPA_EXTERNAL,omitempty" doc:"Material Group Material"`
+  755	WWGPA_VERSION *string `xml:"WWGPA_VERSION,omitempty" json:"WWGPA_VERSION,omitempty" yaml:"WWGPA_VERSION,omitempty" doc:"Version Number (Future Development) for Field WWGPA"`
+  756	WWGPA_GUID *string `xml:"WWGPA_GUID,omitempty" json:"WWGPA_GUID,omitempty" yaml:"WWGPA_GUID,omitempty" doc:"External GUID (Future Development) for Field WWGPA"`
+  757	}
+  758	
+  759	// Segment for exceptions in VO-material determination
+  760	type DEBMASE1T023X struct {
+  761	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  762	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  763	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  764	MATNR *string `xml:"MATNR,omitempty" json:"MATNR,omitempty" yaml:"MATNR,omitempty" doc:"Material Number"`
+  765	WMATN *string `xml:"WMATN,omitempty" json:"WMATN,omitempty" yaml:"WMATN,omitempty" doc:"Posting material number of value-only or individual material"`
+  766	MATKL *string `xml:"MATKL,omitempty" json:"MATKL,omitempty" yaml:"MATKL,omitempty" doc:"Material Group"`
+  767	MATNR_EXTERNAL *string `xml:"MATNR_EXTERNAL,omitempty" json:"MATNR_EXTERNAL,omitempty" yaml:"MATNR_EXTERNAL,omitempty" doc:"Material Number"`
+  768	MATNR_VERSION *string `xml:"MATNR_VERSION,omitempty" json:"MATNR_VERSION,omitempty" yaml:"MATNR_VERSION,omitempty" doc:"Version Number for MATNR Field"`
+  769	MATNR_GUID *string `xml:"MATNR_GUID,omitempty" json:"MATNR_GUID,omitempty" yaml:"MATNR_GUID,omitempty" doc:"External GUID for MATNR Field"`
+  770	WMATN_EXTERNAL *string `xml:"WMATN_EXTERNAL,omitempty" json:"WMATN_EXTERNAL,omitempty" yaml:"WMATN_EXTERNAL,omitempty" doc:"Length of Material No. (Future Development) for Field WMATN"`
+  771	WMATN_VERSION *string `xml:"WMATN_VERSION,omitempty" json:"WMATN_VERSION,omitempty" yaml:"WMATN_VERSION,omitempty" doc:"Version Number (Future Development) for Field WMATN"`
+  772	WMATN_GUID *string `xml:"WMATN_GUID,omitempty" json:"WMATN_GUID,omitempty" yaml:"WMATN_GUID,omitempty" doc:"External GUID (Future Development) for Field WMATN"`
+  773	}
+  774	
+  775	// Customer Master: Credit Card Data
+  776	type DEBMASE1VCKUN struct {
+  777	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  778	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  779	CCINS *string `xml:"CCINS,omitempty" json:"CCINS,omitempty" yaml:"CCINS,omitempty" doc:"Payment cards: Card type"`
+  780	CCNUM *string `xml:"CCNUM,omitempty" json:"CCNUM,omitempty" yaml:"CCNUM,omitempty" doc:"Payment cards: Card number"`
+  781	CCDEF *string `xml:"CCDEF,omitempty" json:"CCDEF,omitempty" yaml:"CCDEF,omitempty" doc:"Payment cards: Indicator for default payment card"`
+  782	CCNAME *string `xml:"CCNAME,omitempty" json:"CCNAME,omitempty" yaml:"CCNAME,omitempty" doc:"Payment cards: Name of cardholder"`
+  783	DATAB *string `xml:"DATAB,omitempty" json:"DATAB,omitempty" yaml:"DATAB,omitempty" doc:"Payment cards: Valid from"`
+  784	DATBI *string `xml:"DATBI,omitempty" json:"DATBI,omitempty" yaml:"DATBI,omitempty" doc:"Payment Cards: Valid To"`
+  785	CCTYP *string `xml:"CCTYP,omitempty" json:"CCTYP,omitempty" yaml:"CCTYP,omitempty" doc:"Payment cards: Card category"`
+  786	CCLOCK *string `xml:"CCLOCK,omitempty" json:"CCLOCK,omitempty" yaml:"CCLOCK,omitempty" doc:"Payment cards: Reason for payment card block"`
+  787	CCGUID *string `xml:"CCGUID,omitempty" json:"CCGUID,omitempty" yaml:"CCGUID,omitempty" doc:"GUID of a Payment Card"`
+  788	}
+  789	
+  790	// Segment for plant/receiving points
+  791	type DEBMASE1WRF12 struct {
+  792	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  793	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  794	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  795	EMPST *string `xml:"EMPST,omitempty" json:"EMPST,omitempty" yaml:"EMPST,omitempty" doc:"Receiving point"`
+  796	KUNN2 *string `xml:"KUNN2,omitempty" json:"KUNN2,omitempty" yaml:"KUNN2,omitempty" doc:"Customer number of business partner"`
+  797	ABLAD *string `xml:"ABLAD,omitempty" json:"ABLAD,omitempty" yaml:"ABLAD,omitempty" doc:"Unloading Point"`
+  798	}
+  799	
+  800	// Segment for plant master
+  801	type DEBMASE1WRF1M struct {
+  802	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  803	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  804	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  805	EROED *string `xml:"EROED,omitempty" json:"EROED,omitempty" yaml:"EROED,omitempty" doc:"Opening date"`
+  806	SCHLD *string `xml:"SCHLD,omitempty" json:"SCHLD,omitempty" yaml:"SCHLD,omitempty" doc:"Closing date"`
+  807	SPDAB *string `xml:"SPDAB,omitempty" json:"SPDAB,omitempty" yaml:"SPDAB,omitempty" doc:"Block from"`
+  808	SPDBI *string `xml:"SPDBI,omitempty" json:"SPDBI,omitempty" yaml:"SPDBI,omitempty" doc:"Block to"`
+  809	AUTOB *string `xml:"AUTOB,omitempty" json:"AUTOB,omitempty" yaml:"AUTOB,omitempty" doc:"Automatic purchase order"`
+  810	KOPRO *string `xml:"KOPRO,omitempty" json:"KOPRO,omitempty" yaml:"KOPRO,omitempty" doc:"POS outbound profile"`
+  811	LAYVR *string `xml:"LAYVR,omitempty" json:"LAYVR,omitempty" yaml:"LAYVR,omitempty" doc:"Layout"`
+  812	FLVAR *string `xml:"FLVAR,omitempty" json:"FLVAR,omitempty" yaml:"FLVAR,omitempty" doc:"Area schema"`
+  813	STFAK *string `xml:"STFAK,omitempty" json:"STFAK,omitempty" yaml:"STFAK,omitempty" doc:"Calendar"`
+  814	WANID *string `xml:"WANID,omitempty" json:"WANID,omitempty" yaml:"WANID,omitempty" doc:"Goods receiving hours ID (default value)"`
+  815	MOAB1 *string `xml:"MOAB1,omitempty" json:"MOAB1,omitempty" yaml:"MOAB1,omitempty" doc:"Goods receipt times: Monday morning from ..."`
+  816	MOBI1 *string `xml:"MOBI1,omitempty" json:"MOBI1,omitempty" yaml:"MOBI1,omitempty" doc:"Goods receiving hours: Monday morning until ..."`
+  817	MOAB2 *string `xml:"MOAB2,omitempty" json:"MOAB2,omitempty" yaml:"MOAB2,omitempty" doc:"Goods receiving hours: Monday afternoon from ..."`
+  818	MOBI2 *string `xml:"MOBI2,omitempty" json:"MOBI2,omitempty" yaml:"MOBI2,omitempty" doc:"Goods receiving hours: Monday afternoon until ..."`
+  819	DIAB1 *string `xml:"DIAB1,omitempty" json:"DIAB1,omitempty" yaml:"DIAB1,omitempty" doc:"Goods receiving hours: Tuesday morning from..."`
+  820	DIBI1 *string `xml:"DIBI1,omitempty" json:"DIBI1,omitempty" yaml:"DIBI1,omitempty" doc:"Goods receipt times: Tuesday morning until ..."`
+  821	DIAB2 *string `xml:"DIAB2,omitempty" json:"DIAB2,omitempty" yaml:"DIAB2,omitempty" doc:"Goods receiving hours: Tuesday afternoon from ..."`
+  822	DIBI2 *string `xml:"DIBI2,omitempty" json:"DIBI2,omitempty" yaml:"DIBI2,omitempty" doc:"Goods receiving hours: Tuesday afternoon until ..."`
+  823	MIAB1 *string `xml:"MIAB1,omitempty" json:"MIAB1,omitempty" yaml:"MIAB1,omitempty" doc:"Goods receiving hours: Wednesday morning from ..."`
+  824	MIBI1 *string `xml:"MIBI1,omitempty" json:"MIBI1,omitempty" yaml:"MIBI1,omitempty" doc:"Goods receiving hours: Wednesday morning until ..."`
+  825	MIAB2 *string `xml:"MIAB2,omitempty" json:"MIAB2,omitempty" yaml:"MIAB2,omitempty" doc:"Goods receiving hours: Wednesday morning until ..."`
+  826	MIBI2 *string `xml:"MIBI2,omitempty" json:"MIBI2,omitempty" yaml:"MIBI2,omitempty" doc:"Goods receiving hours: Wednesday afternoon from ..."`
+  827	DOAB1 *string `xml:"DOAB1,omitempty" json:"DOAB1,omitempty" yaml:"DOAB1,omitempty" doc:"Goods receiving hours: Wednesday afternoon until ..."`
+  828	DOBI1 *string `xml:"DOBI1,omitempty" json:"DOBI1,omitempty" yaml:"DOBI1,omitempty" doc:"Goods receiving hours: Thursday morning from ..."`
+  829	DOAB2 *string `xml:"DOAB2,omitempty" json:"DOAB2,omitempty" yaml:"DOAB2,omitempty" doc:"Goods receiving hours: Thursday morning until ..."`
+  830	DOBI2 *string `xml:"DOBI2,omitempty" json:"DOBI2,omitempty" yaml:"DOBI2,omitempty" doc:"Goods receiving hours: Thursday afternoon from ..."`
+  831	FRAB1 *string `xml:"FRAB1,omitempty" json:"FRAB1,omitempty" yaml:"FRAB1,omitempty" doc:"Goods receiving hours: Thursday afternoon until..."`
+  832	FRBI1 *string `xml:"FRBI1,omitempty" json:"FRBI1,omitempty" yaml:"FRBI1,omitempty" doc:"Goods receiving hours: Friday morning from ..."`
+  833	FRAB2 *string `xml:"FRAB2,omitempty" json:"FRAB2,omitempty" yaml:"FRAB2,omitempty" doc:"Goods receiving hours: Friday morning until ..."`
+  834	FRBI2 *string `xml:"FRBI2,omitempty" json:"FRBI2,omitempty" yaml:"FRBI2,omitempty" doc:"Goods receiving hours: Friday afternoon from ..."`
+  835	SAAB1 *string `xml:"SAAB1,omitempty" json:"SAAB1,omitempty" yaml:"SAAB1,omitempty" doc:"Goods receiving hours: Friday afternoon until ..."`
+  836	SABI1 *string `xml:"SABI1,omitempty" json:"SABI1,omitempty" yaml:"SABI1,omitempty" doc:"Goods receiving hours: Saturday morning from ..."`
+  837	SAAB2 *string `xml:"SAAB2,omitempty" json:"SAAB2,omitempty" yaml:"SAAB2,omitempty" doc:"Goods receiving hours: Saturday afternoon from ..."`
+  838	SABI2 *string `xml:"SABI2,omitempty" json:"SABI2,omitempty" yaml:"SABI2,omitempty" doc:"Goods receiving hours: Saturday afternoon until ..."`
+  839	SOAB1 *string `xml:"SOAB1,omitempty" json:"SOAB1,omitempty" yaml:"SOAB1,omitempty" doc:"Goods receiving hours: Sunday morning from ..."`
+  840	SOBI1 *string `xml:"SOBI1,omitempty" json:"SOBI1,omitempty" yaml:"SOBI1,omitempty" doc:"Goods receiving hours: Sunday morning until ..."`
+  841	SOAB2 *string `xml:"SOAB2,omitempty" json:"SOAB2,omitempty" yaml:"SOAB2,omitempty" doc:"Goods receiving hours: Sunday afternoon from ..."`
+  842	SOBI2 *string `xml:"SOBI2,omitempty" json:"SOBI2,omitempty" yaml:"SOBI2,omitempty" doc:"Goods receiving hours: Sunday afternoon until ..."`
+  843	VERFL *string `xml:"VERFL,omitempty" json:"VERFL,omitempty" yaml:"VERFL,omitempty" doc:"Sales area (floor space)"`
+  844	VERFE *string `xml:"VERFE,omitempty" json:"VERFE,omitempty" yaml:"VERFE,omitempty" doc:"Sales area (floor space) unit"`
+  845	SPGR1 *string `xml:"SPGR1,omitempty" json:"SPGR1,omitempty" yaml:"SPGR1,omitempty" doc:"Blocking reason"`
+  846	INPRO *string `xml:"INPRO,omitempty" json:"INPRO,omitempty" yaml:"INPRO,omitempty" doc:"POS inbound profile"`
+  847	EKOAR *string `xml:"EKOAR,omitempty" json:"EKOAR,omitempty" yaml:"EKOAR,omitempty" doc:"POS outbound: condition type group"`
+  848	KZLIK *string `xml:"KZLIK,omitempty" json:"KZLIK,omitempty" yaml:"KZLIK,omitempty" doc:"Listing conditions should be created per assortment"`
+  849	BETRP *string `xml:"BETRP,omitempty" json:"BETRP,omitempty" yaml:"BETRP,omitempty" doc:"Plant profile"`
+  850	ERDAT *string `xml:"ERDAT,omitempty" json:"ERDAT,omitempty" yaml:"ERDAT,omitempty" doc:"Date on Which Record Was Created"`
+  851	ERNAM *string `xml:"ERNAM,omitempty" json:"ERNAM,omitempty" yaml:"ERNAM,omitempty" doc:"Name of Person who Created the Object"`
+  852	NLMATFB *string `xml:"NLMATFB,omitempty" json:"NLMATFB,omitempty" yaml:"NLMATFB,omitempty" doc:"ID: Carry out subsequent listing"`
+  853	BWWRK *string `xml:"BWWRK,omitempty" json:"BWWRK,omitempty" yaml:"BWWRK,omitempty" doc:"Plant for retail price determination"`
+  854	BWVKO *string `xml:"BWVKO,omitempty" json:"BWVKO,omitempty" yaml:"BWVKO,omitempty" doc:"Sales organization for retail price determination"`
+  855	BWVTW *string `xml:"BWVTW,omitempty" json:"BWVTW,omitempty" yaml:"BWVTW,omitempty" doc:"Distribution channel for retail price determination"`
+  856	BBPRO *string `xml:"BBPRO,omitempty" json:"BBPRO,omitempty" yaml:"BBPRO,omitempty" doc:"Assortment list profile"`
+  857	VKBUR_WRK *string `xml:"VKBUR_WRK,omitempty" json:"VKBUR_WRK,omitempty" yaml:"VKBUR_WRK,omitempty" doc:"Sales office"`
+  858	VLFKZ *string `xml:"VLFKZ,omitempty" json:"VLFKZ,omitempty" yaml:"VLFKZ,omitempty" doc:"Plant category"`
+  859	LSTFL *string `xml:"LSTFL,omitempty" json:"LSTFL,omitempty" yaml:"LSTFL,omitempty" doc:"Listing procedure for store or other assortment categories"`
+  860	LIGRD *string `xml:"LIGRD,omitempty" json:"LIGRD,omitempty" yaml:"LIGRD,omitempty" doc:"Basic listing rule for assortments"`
+  861	VKORG *string `xml:"VKORG,omitempty" json:"VKORG,omitempty" yaml:"VKORG,omitempty" doc:"Sales organization for intercompany billing"`
+  862	VTWEG *string `xml:"VTWEG,omitempty" json:"VTWEG,omitempty" yaml:"VTWEG,omitempty" doc:"Distribution channel for intercompany billing"`
+  863	DESROI *string `xml:"DESROI,omitempty" json:"DESROI,omitempty" yaml:"DESROI,omitempty" doc:"Required ROI (for ALE)"`
+  864	TIMINC *string `xml:"TIMINC,omitempty" json:"TIMINC,omitempty" yaml:"TIMINC,omitempty" doc:"Time Increment for Investment Buying Algorithms (for ALE)"`
+  865	POSWS *string `xml:"POSWS,omitempty" json:"POSWS,omitempty" yaml:"POSWS,omitempty" doc:"Currency of POS systems"`
+  866	SSOPT_PRO *string `xml:"SSOPT_PRO,omitempty" json:"SSOPT_PRO,omitempty" yaml:"SSOPT_PRO,omitempty" doc:"Space management profile"`
+  867	WBPRO *string `xml:"WBPRO,omitempty" json:"WBPRO,omitempty" yaml:"WBPRO,omitempty" doc:"Profile for value-based inventory management"`
+  868	ORGPRICE *string `xml:"ORGPRICE,omitempty" json:"ORGPRICE,omitempty" yaml:"ORGPRICE,omitempty" doc:"Retail: Original Price for Segment Definition E2WRF1M"`
+  869	PRCTR *string `xml:"PRCTR,omitempty" json:"PRCTR,omitempty" yaml:"PRCTR,omitempty" doc:"Profit Center"`
+  870	RMA_PROF *string `xml:"RMA_PROF,omitempty" json:"RMA_PROF,omitempty" yaml:"RMA_PROF,omitempty" doc:"Retail: RMA Profile for Segment Definition E2WRF1M"`
+  871	RMA_VKORG *string `xml:"RMA_VKORG,omitempty" json:"RMA_VKORG,omitempty" yaml:"RMA_VKORG,omitempty" doc:"Cost allocation sales organization"`
+  872	RMA_VTWEG *string `xml:"RMA_VTWEG,omitempty" json:"RMA_VTWEG,omitempty" yaml:"RMA_VTWEG,omitempty" doc:"Cost allocation distribution channel"`
+  873	}
+  874	
+  875	// Segment for supplying plant, time-dependent
+  876	type DEBMASE1WRF3M struct {
+  877	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  878	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  879	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  880	MATKL *string `xml:"MATKL,omitempty" json:"MATKL,omitempty" yaml:"MATKL,omitempty" doc:"Material Group"`
+  881	DATBI *string `xml:"DATBI,omitempty" json:"DATBI,omitempty" yaml:"DATBI,omitempty" doc:"Valid to date"`
+  882	DATAB *string `xml:"DATAB,omitempty" json:"DATAB,omitempty" yaml:"DATAB,omitempty" doc:"Valid-from date"`
+  883	LOCLB *string `xml:"LOCLB,omitempty" json:"LOCLB,omitempty" yaml:"LOCLB,omitempty" doc:"Supplying plant (source of supply)"`
+  884	PRIORITAET *string `xml:"PRIORITAET,omitempty" json:"PRIORITAET,omitempty" yaml:"PRIORITAET,omitempty" doc:"Supplying Plant Priority (BI)"`
+  885	TRANSPORT_CHAIN *string `xml:"TRANSPORT_CHAIN,omitempty" json:"TRANSPORT_CHAIN,omitempty" yaml:"TRANSPORT_CHAIN,omitempty" doc:"Transportation Chain"`
+  886	}
+  887	
+  888	// Segment for plant/departments
+  889	type DEBMASE1WRF4M struct {
+  890	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  891	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  892	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  893	ABTNR *string `xml:"ABTNR,omitempty" json:"ABTNR,omitempty" yaml:"ABTNR,omitempty" doc:"Department number"`
+  894	EMPST *string `xml:"EMPST,omitempty" json:"EMPST,omitempty" yaml:"EMPST,omitempty" doc:"Receiving point"`
+  895	VERFL *string `xml:"VERFL,omitempty" json:"VERFL,omitempty" yaml:"VERFL,omitempty" doc:"Sales area (floor space)"`
+  896	VERFE *string `xml:"VERFE,omitempty" json:"VERFE,omitempty" yaml:"VERFE,omitempty" doc:"Sales area (floor space) unit"`
+  897	LAYVR *string `xml:"LAYVR,omitempty" json:"LAYVR,omitempty" yaml:"LAYVR,omitempty" doc:"Layout"`
+  898	FLVAR *string `xml:"FLVAR,omitempty" json:"FLVAR,omitempty" yaml:"FLVAR,omitempty" doc:"Area schema"`
+  899	}
+  900	
+  901	// Segment for Plant/Merchant ID for Credit Card Company
+  902	type DEBMASE1WRF5M struct {
+  903	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  904	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  905	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number"`
+  906	CCINS *string `xml:"CCINS,omitempty" json:"CCINS,omitempty" yaml:"CCINS,omitempty" doc:"Payment cards: Card type"`
+  907	MERCH *string `xml:"MERCH,omitempty" json:"MERCH,omitempty" yaml:"MERCH,omitempty" doc:"Payment cards: Merchant ID at the clearing house"`
+  908	BEZEI *string `xml:"BEZEI,omitempty" json:"BEZEI,omitempty" yaml:"BEZEI,omitempty" doc:"Description of merchant ID of credit card company"`
+  909	}
+  910	
+  911	// Segment for plant/material groups
+  912	type DEBMASE1WRF6M struct {
+  913	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  914	MSGFN *string `xml:"MSGFN,omitempty" json:"MSGFN,omitempty" yaml:"MSGFN,omitempty" doc:"Function"`
+  915	LOCNR *string `xml:"LOCNR,omitempty" json:"LOCNR,omitempty" yaml:"LOCNR,omitempty" doc:"Customer Number for Plant"`
+  916	MATKL *string `xml:"MATKL,omitempty" json:"MATKL,omitempty" yaml:"MATKL,omitempty" doc:"Material Group"`
+  917	SSTUF *string `xml:"SSTUF,omitempty" json:"SSTUF,omitempty" yaml:"SSTUF,omitempty" doc:"Assortment grade"`
+  918	SORBR *string `xml:"SORBR,omitempty" json:"SORBR,omitempty" yaml:"SORBR,omitempty" doc:"Assortment length"`
+  919	ABTNR *string `xml:"ABTNR,omitempty" json:"ABTNR,omitempty" yaml:"ABTNR,omitempty" doc:"Department number"`
+  920	PRIOT *string `xml:"PRIOT,omitempty" json:"PRIOT,omitempty" yaml:"PRIOT,omitempty" doc:"Assortment Priority"`
+  921	DISPR *string `xml:"DISPR,omitempty" json:"DISPR,omitempty" yaml:"DISPR,omitempty" doc:"Material: MRP profile"`
+  922	PROPR *string `xml:"PROPR,omitempty" json:"PROPR,omitempty" yaml:"PROPR,omitempty" doc:"Forecast profile"`
+  923	PRIMW *string `xml:"PRIMW,omitempty" json:"PRIMW,omitempty" yaml:"PRIMW,omitempty" doc:"Price including sales tax"`
+  924	UPROF *string `xml:"UPROF,omitempty" json:"UPROF,omitempty" yaml:"UPROF,omitempty" doc:"Retail revalution profile"`
+  925	WDAUS *string `xml:"WDAUS,omitempty" json:"WDAUS,omitempty" yaml:"WDAUS,omitempty" doc:"Exclude material group from POS outbound processing"`
+  926	RQGRP *string `xml:"RQGRP,omitempty" json:"RQGRP,omitempty" yaml:"RQGRP,omitempty" doc:"Replenishment: requirement group"`
+  927	FBPRO *string `xml:"FBPRO,omitempty" json:"FBPRO,omitempty" yaml:"FBPRO,omitempty" doc:"Store procurement profile for store order, replenishment"`
+  928	PLTYP_P *string `xml:"PLTYP_P,omitempty" json:"PLTYP_P,omitempty" yaml:"PLTYP_P,omitempty" doc:"Price determination: Item-based price list type"`
+  929	PSTRA *string `xml:"PSTRA,omitempty" json:"PSTRA,omitempty" yaml:"PSTRA,omitempty" doc:"Sales Pricing: Pricing Strategy"`
+  930	MGINT *string `xml:"MGINT,omitempty" json:"MGINT,omitempty" yaml:"MGINT,omitempty" doc:"Internal Class Number of a Competitor Group (for ALE)"`
+  931	}
+  932	
+  933	// EDI_DCDEBMASDEBMAS07 was auto-generated from WSDL.
+  934	type EDI_DCDEBMASDEBMAS07 struct {
+  935	SEGMENT string `xml:"SEGMENT" json:"SEGMENT" yaml:"SEGMENT" doc:""`
+  936	TABNAM string `xml:"TABNAM" json:"TABNAM" yaml:"TABNAM" doc:"TABNAM"`
+  937	MANDT *string `xml:"MANDT,omitempty" json:"MANDT,omitempty" yaml:"MANDT,omitempty" doc:"MANDT"`
+  938	DOCNUM *string `xml:"DOCNUM,omitempty" json:"DOCNUM,omitempty" yaml:"DOCNUM,omitempty" doc:"DOCNUM"`
+  939	DOCREL *string `xml:"DOCREL,omitempty" json:"DOCREL,omitempty" yaml:"DOCREL,omitempty" doc:"DOCREL"`
+  940	STATUS *string `xml:"STATUS,omitempty" json:"STATUS,omitempty" yaml:"STATUS,omitempty" doc:"STATUS"`
+  941	DIRECT DIRECT `xml:"DIRECT" json:"DIRECT" yaml:"DIRECT" doc:""`
+  942	OUTMOD *string `xml:"OUTMOD,omitempty" json:"OUTMOD,omitempty" yaml:"OUTMOD,omitempty" doc:"OUTMOD"`
+  943	EXPRSS *string `xml:"EXPRSS,omitempty" json:"EXPRSS,omitempty" yaml:"EXPRSS,omitempty" doc:"EXPRSS"`
+  944	TEST *string `xml:"TEST,omitempty" json:"TEST,omitempty" yaml:"TEST,omitempty" doc:"TEST"`
+  945	IDOCTYP string `xml:"IDOCTYP" json:"IDOCTYP" yaml:"IDOCTYP" doc:"IDOCTYP"`
+  946	CIMTYP *string `xml:"CIMTYP,omitempty" json:"CIMTYP,omitempty" yaml:"CIMTYP,omitempty" doc:"CIMTYP"`
+  947	MESTYP string `xml:"MESTYP" json:"MESTYP" yaml:"MESTYP" doc:"MESTYP"`
+  948	MESCOD *string `xml:"MESCOD,omitempty" json:"MESCOD,omitempty" yaml:"MESCOD,omitempty" doc:"MESCOD"`
+  949	MESFCT *string `xml:"MESFCT,omitempty" json:"MESFCT,omitempty" yaml:"MESFCT,omitempty" doc:"MESFCT"`
+  950	STD *string `xml:"STD,omitempty" json:"STD,omitempty" yaml:"STD,omitempty" doc:"STD"`
+  951	STDVRS *string `xml:"STDVRS,omitempty" json:"STDVRS,omitempty" yaml:"STDVRS,omitempty" doc:"STDVRS"`
+  952	STDMES *string `xml:"STDMES,omitempty" json:"STDMES,omitempty" yaml:"STDMES,omitempty" doc:"STDMES"`
+  953	SNDPOR string `xml:"SNDPOR" json:"SNDPOR" yaml:"SNDPOR" doc:"SNDPOR"`
+  954	SNDPRT string `xml:"SNDPRT" json:"SNDPRT" yaml:"SNDPRT" doc:"SNDPRT"`
+  955	SNDPFC *string `xml:"SNDPFC,omitempty" json:"SNDPFC,omitempty" yaml:"SNDPFC,omitempty" doc:"SNDPFC"`
+  956	SNDPRN string `xml:"SNDPRN" json:"SNDPRN" yaml:"SNDPRN" doc:"SNDPRN"`
+  957	SNDSAD *string `xml:"SNDSAD,omitempty" json:"SNDSAD,omitempty" yaml:"SNDSAD,omitempty" doc:"SNDSAD"`
+  958	SNDLAD *string `xml:"SNDLAD,omitempty" json:"SNDLAD,omitempty" yaml:"SNDLAD,omitempty" doc:"SNDLAD"`
+  959	RCVPOR string `xml:"RCVPOR" json:"RCVPOR" yaml:"RCVPOR" doc:"RCVPOR"`
+  960	RCVPRT *string `xml:"RCVPRT,omitempty" json:"RCVPRT,omitempty" yaml:"RCVPRT,omitempty" doc:"RCVPRT"`
+  961	RCVPFC *string `xml:"RCVPFC,omitempty" json:"RCVPFC,omitempty" yaml:"RCVPFC,omitempty" doc:"RCVPFC"`
+  962	RCVPRN string `xml:"RCVPRN" json:"RCVPRN" yaml:"RCVPRN" doc:"RCVPRN"`
+  963	RCVSAD *string `xml:"RCVSAD,omitempty" json:"RCVSAD,omitempty" yaml:"RCVSAD,omitempty" doc:"RCVSAD"`
+  964	RCVLAD *string `xml:"RCVLAD,omitempty" json:"RCVLAD,omitempty" yaml:"RCVLAD,omitempty" doc:"RCVLAD"`
+  965	CREDAT *string `xml:"CREDAT,omitempty" json:"CREDAT,omitempty" yaml:"CREDAT,omitempty" doc:"CREDAT"`
+  966	CRETIM *string `xml:"CRETIM,omitempty" json:"CRETIM,omitempty" yaml:"CRETIM,omitempty" doc:"CRETIM"`
+  967	REFINT *string `xml:"REFINT,omitempty" json:"REFINT,omitempty" yaml:"REFINT,omitempty" doc:"REFINT"`
+  968	REFGRP *string `xml:"REFGRP,omitempty" json:"REFGRP,omitempty" yaml:"REFGRP,omitempty" doc:"REFGRP"`
+  969	REFMES *string `xml:"REFMES,omitempty" json:"REFMES,omitempty" yaml:"REFMES,omitempty" doc:"REFMES"`
+  970	ARCKEY *string `xml:"ARCKEY,omitempty" json:"ARCKEY,omitempty" yaml:"ARCKEY,omitempty" doc:"ARCKEY"`
+  971	SERIAL *string `xml:"SERIAL,omitempty" json:"SERIAL,omitempty" yaml:"SERIAL,omitempty" doc:"SERIAL"`
+  972	}
+  973	
+  974	// POST_DEBMASDEBMAS07Post_InputMessage was auto-generated from
+  975	// WSDL.
+  976	type POST_DEBMASDEBMAS07Post_InputMessage struct {
+  977	Body *DEBMASDEBMAS071 `xml:"Body" json:"Body" yaml:"Body" doc:""`
+  978	}
+  979	
+  980	// Operation wrapper for POST_DEBMASDEBMAS07Post.
+  981	// OperationPOST_DEBMASDEBMAS07Post_InputMessage was auto-generated
+  982	// from WSDL.
+  983	type OperationPOST_DEBMASDEBMAS07Post_InputMessage struct {
+  984	POST_DEBMASDEBMAS07Post_InputMessage *POST_DEBMASDEBMAS07Post_InputMessage `xml:"POST_DEBMASDEBMAS07Post_InputMessage,omitempty" json:"POST_DEBMASDEBMAS07Post_InputMessage,omitempty" yaml:"POST_DEBMASDEBMAS07Post_InputMessage,omitempty" doc:""`
+  985	}
+  986	
+  987	// Operation wrapper for POST_DEBMASDEBMAS07Post.
+  988	// OperationPOST_DEBMASDEBMAS07Post_OutputMessage was auto-generated
+  989	// from WSDL.
+  990	type OperationPOST_DEBMASDEBMAS07Post_OutputMessage struct {
+  991	POST_DEBMASDEBMAS07Post_OutputMessage *POST_DEBMASDEBMAS07Post_OutputMessage `xml:"POST_DEBMASDEBMAS07Post_OutputMessage,omitempty" json:"POST_DEBMASDEBMAS07Post_OutputMessage,omitempty" yaml:"POST_DEBMASDEBMAS07Post_OutputMessage,omitempty" doc:""`
+  992	}
+  993	
+  994	
+  995	// dEBMAS.DEBMAS07_PortType implements the DEBMASDEBMAS07_PortType interface.
+  996	type dEBMAS.DEBMAS07_PortType struct {
+  997		cli *soap.Client
+  998	}
+  999	
+ 1000	// DEBMAS.DEBMAS07
+ 1001	func (p *dEBMAS.DEBMAS07_PortType) POST_DEBMASDEBMAS07Post(POST_DEBMASDEBMAS07Post_InputMessage *POST_DEBMASDEBMAS07Post_InputMessage) (*POST_DEBMASDEBMAS07Post_OutputMessage,error) {
+ 1002		α := struct {
+ 1003			
+ 1004				 OperationPOST_DEBMASDEBMAS07Post_InputMessage `xml:"q3:POST_DEBMASDEBMAS07Post"`
+ 1005			
+ 1006		}{
+ 1007			OperationPOST_DEBMASDEBMAS07Post_InputMessage {
+ 1008				POST_DEBMASDEBMAS07Post_InputMessage,
+ 1009				
+ 1010			},
+ 1011		}
+ 1012	
+ 1013		γ := struct {
+ 1014			
+ 1015				OperationPOST_DEBMASDEBMAS07Post_OutputMessage `xml:"POST_DEBMASDEBMAS07PostResponse"`
+ 1016			
+ 1017		}{}
+ 1018		if err := p.cli.RoundTripWithAction("POST_DEBMASDEBMAS07Post", α, &γ); err != nil {
+ 1019			return nil,err
+ 1020		}
+ 1021		return γ.POST_DEBMASDEBMAS07Post_OutputMessage, nil
+ 1022	}

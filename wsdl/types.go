@@ -94,12 +94,14 @@ type SimpleType struct {
 	Union           *Union       `xml:"union"`
 	Restriction     *Restriction `xml:"restriction"`
 	TargetNamespace string
+	Doc             string `xml:"annotation>documentation"`
 }
 
 // Union is a mix of multiple types in a union.
 type Union struct {
 	XMLName     xml.Name `xml:"union"`
 	MemberTypes string   `xml:"memberTypes,attr"`
+	Doc         string   `xml:"annotation>documentation"`
 }
 
 // Restriction describes the WSDL type of the simple type and
@@ -109,12 +111,14 @@ type Restriction struct {
 	Base       string       `xml:"base,attr"`
 	Enum       []*Enum      `xml:"enumeration"`
 	Attributes []*Attribute `xml:"attribute"`
+	Doc        string       `xml:"annotation>documentation"`
 }
 
 // Enum describes one possible value for a Restriction.
 type Enum struct {
 	XMLName xml.Name `xml:"enumeration"`
 	Value   string   `xml:"value,attr"`
+	Doc     string   `xml:"annotation>documentation"`
 }
 
 // ComplexType describes a complex type, such as a struct.
@@ -137,6 +141,7 @@ type SimpleContent struct {
 	XMLName     xml.Name     `xml:"simpleContent"`
 	Extension   *Extension   `xml:"extension"`
 	Restriction *Restriction `xml:"restriction"`
+	Doc         string       `xml:"annotation>documentation"`
 }
 
 // ComplexContent describes complex content within a complex type. Usually
@@ -145,6 +150,7 @@ type ComplexContent struct {
 	XMLName     xml.Name     `xml:"complexContent"`
 	Extension   *Extension   `xml:"extension"`
 	Restriction *Restriction `xml:"restriction"`
+	Doc         string       `xml:"annotation>documentation"`
 }
 
 // Extension describes a complex content extension.
@@ -154,6 +160,7 @@ type Extension struct {
 	Sequence   *Sequence    `xml:"sequence"`
 	Choice     *Choice      `xml:"choice"`
 	Attributes []*Attribute `xml:"attribute"`
+	Doc        string       `xml:"annotation>documentation"`
 }
 
 // Sequence describes a list of elements (parameters) of a type.
@@ -163,6 +170,7 @@ type Sequence struct {
 	Elements     []*Element     `xml:"element"`
 	Any          []*AnyElement  `xml:"any"`
 	Choices      []*Choice      `xml:"choice"`
+	Doc          string         `xml:"annotation>documentation"`
 }
 
 // Choice describes a list of elements (parameters) of a type.
@@ -171,6 +179,7 @@ type Choice struct {
 	ComplexTypes []*ComplexType `xml:"complexType"`
 	Elements     []*Element     `xml:"element"`
 	Any          []*AnyElement  `xml:"any"`
+	Doc          string         `xml:"annotation>documentation"`
 }
 
 // Attribute describes an attribute of a given type.
@@ -183,6 +192,7 @@ type Attribute struct {
 	Min       int      `xml:"minOccurs,attr"`
 	Max       string   `xml:"maxOccurs,attr"` // can be # or unbounded
 	Nillable  bool     `xml:"nillable,attr"`
+	Doc       string   `xml:"annotation>documentation"`
 }
 
 // Element describes an element of a given type.
@@ -191,6 +201,8 @@ type Element struct {
 	Name        string       `xml:"name,attr"`
 	Ref         string       `xml:"ref,attr"`
 	Type        string       `xml:"type,attr"`
+	Doc         string       `xml:"simpleType>annotation>documentation"`
+	Doc2        string       `xml:"annotation>documentation"`
 	Min         int          `xml:"minOccurs,attr"`
 	Max         string       `xml:"maxOccurs,attr"` // can be # or unbounded
 	Nillable    bool         `xml:"nillable,attr"`
@@ -202,6 +214,7 @@ type AnyElement struct {
 	XMLName xml.Name `xml:"any"`
 	Min     int      `xml:"minOccurs,attr"`
 	Max     string   `xml:"maxOccurs,attr"` // can be # or unbounded
+	Doc     string   `xml:"annotation>documentation"`
 }
 
 // Import points to another WSDL to be imported at root level.
@@ -239,6 +252,7 @@ type Part struct {
 	Name    string   `xml:"name,attr"`
 	Type    string   `xml:"type,attr,omitempty"`
 	Element string   `xml:"element,attr,omitempty"` // TODO: not sure omitempty
+	Doc     string   `xml:"annotation>documentation"`
 }
 
 // PortType describes a set of operations.
